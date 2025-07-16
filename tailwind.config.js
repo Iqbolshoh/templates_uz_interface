@@ -112,4 +112,8 @@ export default {
         '18': '4.5rem',
         '88': '22rem',
         '128': '32rem',
-30ddbb77
+      },
+    },
+  },
+  plugins: [],
+};
