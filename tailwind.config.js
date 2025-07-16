@@ -7,7 +7,6 @@ export default {
         sans: ['Poppins', 'sans-serif'],
       },
       colors: {
-        // Primary colors - Red only
         primary: {
           50: '#fff0f0',
           100: '#ffdddd',
@@ -21,7 +20,6 @@ export default {
           900: '#870000',
           950: '#4a0000',
         },
-        // Red variations
         red: {
           50: '#fff0f0',
           100: '#ffdddd',
@@ -35,7 +33,6 @@ export default {
           900: '#870000',
           950: '#4a0000',
         },
-        // Secondary/neutral colors - Black, white, grays only
         secondary: {
           50: '#f6f6f6',
           100: '#e7e7e7',
@@ -49,7 +46,6 @@ export default {
           900: '#3d3d3d',
           950: '#000000', // Pure black
         },
-        // Gray scale
         gray: {
           50: '#f9f9f9',
           100: '#f3f3f3',
@@ -63,6 +59,17 @@ export default {
           900: '#171717',
           950: '#0a0a0a',
         },
+        // Override any other colors to maintain red/black/white only
+        blue: {
+          500: '#ff0000', // Force blue to red
+        },
+        green: {
+          500: '#000000', // Force green to black
+        },
+        yellow: {
+          500: '#ff0000', // Force yellow to red
+        },
+        // Remove any other color references
       },
       animation: {
         'fade-in': 'fade-in 0.5s ease-out',
