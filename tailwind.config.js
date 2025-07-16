@@ -7,21 +7,35 @@ export default {
         sans: ['Poppins', 'sans-serif'],
       },
       colors: {
-        // Primary colors based on logo red (#FF0000)
+        // Primary colors - Red only
         primary: {
           50: '#fff0f0',
           100: '#ffdddd',
           200: '#ffc0c0',
           300: '#ff9494',
           400: '#ff5757',
-          500: '#ff0000', // Exact logo red
+          500: '#ff0000', // Main red
           600: '#e60000',
           700: '#c50000',
           800: '#a30000',
           900: '#870000',
           950: '#4a0000',
         },
-        // Secondary/neutral colors
+        // Red variations
+        red: {
+          50: '#fff0f0',
+          100: '#ffdddd',
+          200: '#ffc0c0',
+          300: '#ff9494',
+          400: '#ff5757',
+          500: '#ff0000', // Main red
+          600: '#e60000',
+          700: '#c50000',
+          800: '#a30000',
+          900: '#870000',
+          950: '#4a0000',
+        },
+        // Secondary/neutral colors - Black, white, grays only
         secondary: {
           50: '#f6f6f6',
           100: '#e7e7e7',
@@ -33,16 +47,24 @@ export default {
           700: '#4f4f4f',
           800: '#454545',
           900: '#3d3d3d',
-          950: '#000000', // Exact logo black
+          950: '#000000', // Pure black
         },
-        // Logo specific colors (direct references)
-        logo: {
-          red: '#FF0000',
-          black: '#000000',
+        // Gray scale
+        gray: {
+          50: '#f9f9f9',
+          100: '#f3f3f3',
+          200: '#e5e5e5',
+          300: '#d4d4d4',
+          400: '#a3a3a3',
+          500: '#737373',
+          600: '#525252',
+          700: '#404040',
+          800: '#262626',
+          900: '#171717',
+          950: '#0a0a0a',
         },
       },
       animation: {
-        // Keep your existing animations
         'fade-in': 'fade-in 0.5s ease-out',
         'slide-up': 'slide-up 0.6s ease-out',
         'float': 'float 3s ease-in-out infinite',
@@ -52,9 +74,9 @@ export default {
         'glow': 'glow 2s ease-in-out infinite alternate',
         'slide-in-right': 'slideInRight 0.3s ease-out',
         'slide-out-right': 'slideOutRight 0.3s ease-in',
+        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
       },
       keyframes: {
-        // Keep your existing keyframes
         'fade-in': {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
@@ -85,6 +107,10 @@ export default {
         'slideOutRight': {
           '0%': { transform: 'translateX(0)', opacity: '1' },
           '100%': { transform: 'translateX(100%)', opacity: '0' },
+        },
+        'fadeInUp': {
+          '0%': { opacity: '0', transform: 'translateY(30px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
         },
       },
       backgroundImage: {
