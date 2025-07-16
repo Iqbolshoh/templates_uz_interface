@@ -1,89 +1,105 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      colors: {
-        primary: {
-          50: '#fff5f5',
-          100: '#fed7d7',
-          200: '#feb2b2',
-          300: '#fc8181',
-          400: '#f56565',
-          500: '#e53e3e', // Asosiy qizil
-          600: '#c53030',
-          700: '#9b2c2c',
-          800: '#822727',
-          900: '#63171b',
-          DEFAULT: '#e53e3e',
-          dark: '#c53030',
-        },
-        secondary: {
-          50: '#f8f9fa',
-          100: '#e9ecef',
-          200: '#dee2e6',
-          300: '#ced4da',
-          400: '#adb5bd',
-          500: '#495057', // O'rta qora
-          600: '#343a40',
-          700: '#212529', // To'q qora
-          800: '#1a1a1a',
-          900: '#0d0d0d',
-          DEFAULT: '#495057',
-          dark: '#343a40',
-        },
-        accent: {
-          50: '#ffffff',
-          100: '#f8f9fa',
-          200: '#e9ecef',
-          300: '#dee2e6',
-          400: '#ced4da',
-          500: '#ffffff', // Toza oq
-          600: '#f8f9fa',
-          700: '#e9ecef',
-          800: '#dee2e6',
-          900: '#ced4da',
-          DEFAULT: '#ffffff',
-        },
-        dark: '#212529',
-        'light-text': '#6b7280',
-      },
       fontFamily: {
-        primary: ['Inter', 'sans-serif'],
-        heading: ['Poppins', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
       },
-      borderRadius: {
-        xl: "16px",
-        '2xl': "24px",
-        '3xl': "32px",
-      },
-      boxShadow: {
-        'custom': '0 4px 20px rgba(0, 0, 0, 0.08)',
-        'custom-lg': '0 8px 30px rgba(0, 0, 0, 0.12)',
-        soft: "0 4px 14px rgba(0, 0, 0, 0.08)",
-        medium: "0 8px 30px rgba(0, 0, 0, 0.12)",
-        hard: "0 20px 50px rgba(0, 0, 0, 0.15)",
-        glow: "0 0 20px rgba(229, 62, 62, 0.3)" // Qizil glow efekti
+      colors: {
+        // Primary colors based on logo red (#FF0000)
+        primary: {
+          50: '#fff0f0',
+          100: '#ffdddd',
+          200: '#ffc0c0',
+          300: '#ff9494',
+          400: '#ff5757',
+          500: '#ff0000', // Exact logo red
+          600: '#e60000',
+          700: '#c50000',
+          800: '#a30000',
+          900: '#870000',
+          950: '#4a0000',
+        },
+        // Secondary/neutral colors
+        secondary: {
+          50: '#f6f6f6',
+          100: '#e7e7e7',
+          200: '#d1d1d1',
+          300: '#b0b0b0',
+          400: '#888888',
+          500: '#6d6d6d',
+          600: '#5d5d5d',
+          700: '#4f4f4f',
+          800: '#454545',
+          900: '#3d3d3d',
+          950: '#000000', // Exact logo black
+        },
+        // Logo specific colors (direct references)
+        logo: {
+          red: '#FF0000',
+          black: '#000000',
+        },
       },
       animation: {
-        'float': 'float 6s ease-in-out infinite',
-        'float-reverse': 'float-reverse 6s ease-in-out infinite',
-        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        // Keep your existing animations
+        'fade-in': 'fade-in 0.5s ease-out',
+        'slide-up': 'slide-up 0.6s ease-out',
+        'float': 'float 3s ease-in-out infinite',
+        'float-icon': 'floatIcon 15s infinite linear',
+        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'bounce-slow': 'bounce 2s infinite',
+        'glow': 'glow 2s ease-in-out infinite alternate',
+        'slide-in-right': 'slideInRight 0.3s ease-out',
+        'slide-out-right': 'slideOutRight 0.3s ease-in',
       },
       keyframes: {
-        float: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-20px)' },
+        // Keep your existing keyframes
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
         },
-        'float-reverse': {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(20px)' },
-        }
-      }
+        'slide-up': {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        'float': {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        'floatIcon': {
+          '0%': { transform: 'translateY(0) rotate(0deg)', opacity: '0.3' },
+          '25%': { transform: 'translateY(-20px) rotate(90deg)', opacity: '0.6' },
+          '50%': { transform: 'translateY(-10px) rotate(180deg)', opacity: '0.4' },
+          '75%': { transform: 'translateY(-30px) rotate(270deg)', opacity: '0.7' },
+          '100%': { transform: 'translateY(0) rotate(360deg)', opacity: '0.3' },
+        },
+        'glow': {
+          '0%': { boxShadow: '0 0 5px #FF0000, 0 0 10px #FF0000, 0 0 15px #FF0000' },
+          '100%': { boxShadow: '0 0 10px #FF0000, 0 0 20px #FF0000, 0 0 30px #FF0000' },
+        },
+        'slideInRight': {
+          '0%': { transform: 'translateX(100%)', opacity: '0' },
+          '100%': { transform: 'translateX(0)', opacity: '1' },
+        },
+        'slideOutRight': {
+          '0%': { transform: 'translateX(0)', opacity: '1' },
+          '100%': { transform: 'translateX(100%)', opacity: '0' },
+        },
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'light-pattern': "url('data:image/svg+xml,%3Csvg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"%23FF0000\" fill-opacity=\"0.03\"%3E%3Cpath d=\"M20 20c0-11.046 8.954-20 20-20v40c-11.046 0-20-8.954-20-20z\"/%3E%3C/g%3E%3C/svg%3E')",
+      },
+      boxShadow: {
+        'glow-red': '0 0 20px rgba(255, 0, 0, 0.3)',
+        'glow-red-lg': '0 0 40px rgba(255, 0, 0, 0.4)',
+      },
+      backdropBlur: {
+        xs: '2px',
+      },
     },
   },
   plugins: [],
-}
+};

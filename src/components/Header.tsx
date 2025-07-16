@@ -49,7 +49,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <nav className="bg-white/95 backdrop-blur-lg shadow-xl border-b border-gray-100 sticky top-0 z-50 transition-all duration-300">
+    <nav className="bg-white/95 backdrop-blur-lg shadow-xl border-b border-secondary-100 sticky top-0 z-50 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -58,13 +58,13 @@ const Header: React.FC = () => {
               <div className="relative">
                 <img 
                   src="/assets/images/logo_2.png" 
-                  className="w-12 h-12 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105" 
+                  className="w-12 h-12 rounded-xl shadow-lg group-hover:shadow-glow-red transition-all duration-300 group-hover:scale-105" 
                   alt="Logo" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary-500/20 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
-              <div className="font-heading font-bold text-2xl">
-                <span className="bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">Templates</span>
+              <div className="font-sans font-bold text-2xl">
+                <span className="bg-gradient-to-r from-secondary-950 to-secondary-700 bg-clip-text text-transparent">Templates</span>
                 <span className="bg-gradient-to-r from-primary-500 to-primary-600 bg-clip-text text-transparent">.uz</span>
               </div>
             </Link>
@@ -80,7 +80,7 @@ const Header: React.FC = () => {
                   className={`relative px-4 py-2 text-sm font-medium transition-all duration-300 rounded-lg group ${
                     isActive(item.href)
                       ? 'text-primary-600 bg-primary-50'
-                      : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                      : 'text-secondary-700 hover:text-primary-600 hover:bg-secondary-50'
                   }`}
                 >
                   {item.label}
@@ -97,7 +97,7 @@ const Header: React.FC = () => {
             {/* Language Dropdown */}
             <div className="relative">
               <button
-                className="flex items-center space-x-2 px-3 py-2 text-gray-700 hover:text-primary-600 transition-colors rounded-lg hover:bg-gray-50"
+                className="flex items-center space-x-2 px-3 py-2 text-secondary-700 hover:text-primary-600 transition-colors rounded-lg hover:bg-secondary-50"
                 onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
               >
                 {selectedLanguage.flagIcon ? (
@@ -123,11 +123,11 @@ const Header: React.FC = () => {
               </button>
 
               {isLanguageDropdownOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-xl border border-gray-100 py-2 z-50 backdrop-blur-lg">
+                <div className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-xl border border-secondary-100 py-2 z-50 backdrop-blur-lg">
                   {languages.map((language) => (
                     <button
                       key={language.code}
-                      className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 w-full text-left transition-colors"
+                      className="flex items-center px-4 py-3 text-sm text-secondary-700 hover:bg-primary-50 hover:text-primary-600 w-full text-left transition-colors"
                       onClick={() => handleLanguageChange(language)}
                     >
                       {language.flagIcon ? (
@@ -155,7 +155,7 @@ const Header: React.FC = () => {
             </Link>
             <Link
               to="/register"
-              className="px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+              className="px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-glow-red"
             >
               Roʻyxatdan oʻtish
             </Link>
@@ -165,7 +165,7 @@ const Header: React.FC = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-2 text-gray-700 hover:text-primary-600 focus:outline-none focus:text-primary-600 rounded-lg hover:bg-gray-50 transition-colors"
+              className="p-2 text-secondary-700 hover:text-primary-600 focus:outline-none focus:text-primary-600 rounded-lg hover:bg-secondary-50 transition-colors"
               aria-label="Toggle menu"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -182,7 +182,7 @@ const Header: React.FC = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white/95 backdrop-blur-lg border-t border-gray-100 rounded-b-xl shadow-lg">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white/95 backdrop-blur-lg border-t border-secondary-100 rounded-b-xl shadow-lg">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
@@ -190,14 +190,14 @@ const Header: React.FC = () => {
                   className={`block px-4 py-3 text-base font-medium transition-colors rounded-lg ${
                     isActive(item.href)
                       ? 'text-primary-600 bg-primary-50'
-                      : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                      : 'text-secondary-700 hover:text-primary-600 hover:bg-secondary-50'
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}
                 </Link>
               ))}
-              <div className="pt-4 pb-3 border-t border-gray-200">
+              <div className="pt-4 pb-3 border-t border-secondary-200">
                 <div className="flex flex-col space-y-3">
                   <Link
                     to="/login"
