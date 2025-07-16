@@ -15,12 +15,568 @@
     "language": {
       "english": "English",
       "russian": "Русский",
-      "uzbek": "Uzbek",
+      "uzbek": "O'zbek",
       "tajik": "Тоҷикӣ"
     },
     "auth": {
       "login": "Kirish",
       "signup": "Ro'yxatdan o'tish"
     }
+  },
+  "hero": {
+    "badge": "Yangi platforma ishga tushdi!",
+    "title": {
+      "line1": "Veb-saytingizni",
+      "line2": "tez va oson yarating"
+    },
+    "description": "Templates.uz bilan ajoyib va moslashtirilgan veb-saytlarni qisqa vaqt ichida yarating! Drag & drop qurilish vositasi, tayyor shablonlar va professional dasturchi xizmatlari.",
+    "cta": {
+      "primary": "Yangi veb-sayt yaratish",
+      "secondary": "Variantlarni ko'rish"
+    },
+    "options": {
+      "dragDrop": {
+        "title": "Drag & Drop Veb-sayt Quruvchisi",
+        "description": "Kodlashsiz veb-saytingizni yaratish uchun bloklarni sichqoncha bilan suring.",
+        "cta": "Boshlash"
+      },
+      "templates": {
+        "title": "Tayyor Shablonlardan Veb-sayt Yaratish",
+        "description": "Keng tanlovimizdan o'zingizga mos shablonni tanlang va o'z didingizga moslang.",
+        "cta": "Boshlash"
+      },
+      "developer": {
+        "title": "Professional Dasturchi Xizmatlaridan Foydalanish",
+        "description": "Tajribali dasturchlar tomonidan sizga moslashtirilgan tez, xavfsiz va noyob veb-sayt yaratamiz.",
+        "cta": "Siznikini yarataylik!"
+      }
+    }
+  },
+  "features": {
+    "badge": "Nega bizni tanlaysiz?",
+    "title": {
+      "line1": "Nega aynan",
+      "line2": "biz?"
+    },
+    "description": "Templates.uz platformasi kuchli vositalar va moslashuvchan sozlash imkoniyatlari bilan eng yaxshi veb-sayt yaratish tajribasini taklif etadi.",
+    "items": {
+      "dragDrop": {
+        "title": "Drag & Drop Quruvchi",
+        "description": "Kod yozmasdan veb-saytingizni sozlang. Elementlarni oson joylashtiring va qayta tartibga soling.",
+        "link": "Batafsil"
+      },
+      "templates": {
+        "title": "Tayyor Shablonlar",
+        "description": "150 dan ortiq professional ishlab chiqilgan shablonlardan tanlang va ularni o'z didingizga moslang.",
+        "link": "Batafsil"
+      },
+      "developer": {
+        "title": "Dasturchi Xizmatlari",
+        "description": "Bizning professional dasturchlarimiz sizning shaxsiy maqsadlaringizga moslashtirilgan maxsus veb-sayt yaratadi.",
+        "link": "Batafsil"
+      },
+      "responsive": {
+        "title": "Mobil Moslashuvchan",
+        "description": "Sizning veb-saytingiz barcha qurilmalarda mukammal ko'rinadi — avtomatik moslashuvchan texnologiya bilan!",
+        "link": "Batafsil"
+      },
+      "speed": {
+        "title": "Yuqori Tezlik",
+        "description": "Sahifalar optimallashtirilgan kod va CDN qo'llab-quvvatlash bilan 90% tezroq yuklanadi. Ajoyib foydalanuvchi tajribasi!",
+        "link": "Batafsil"
+      },
+      "support": {
+        "title": "24/7 Qo'llab-quvvatlash",
+        "description": "Bizning jamoamiz sizga doimo yordam berishga tayyor — elektron pochta, chat yoki telefon orqali!",
+        "link": "Batafsil"
+      }
+    }
+  },
+  "howItWorks": {
+    "badge": "Oddiy jarayon",
+    "title": {
+      "line1": "Qanday",
+      "line2": "ishlaydi?"
+    },
+    "description": "Faqat 3 qadamda o'z saytingizni yarating!",
+    "steps": {
+      "choose": {
+        "title": "Shablonni tanlang",
+        "description": "Bizning kolleksiyamizdan mos shablonni tanlang yoki jamoamizdan maxsus dizayn so'rang."
+      },
+      "content": {
+        "title": "Kontentingizni qo'shing",
+        "description": "Oddiy interfeys orqali matn, rasm va videolaringizni yuklang va sozlang."
+      },
+      "publish": {
+        "title": "Saytingizni nashr eting",
+        "description": "Bir marta bosish bilan veb-saytingizni internetda ishga tushiring. Domen yoki hosting haqida tashvishlanmang!"
+      }
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": {
+      "line1": "Tez-tez so'raladigan",
+      "line2": "savollar"
+    },
+    "description": "Templates.uz platformasi, drag & drop quruvchi, shablonlar va bizning dasturchi xizmatlarimiz haqida eng ko'p so'raladigan savollarga javoblar.",
+    "items": {
+      "whatIs": {
+        "question": "Templates.uz nima va qanday ishlaydi?",
+        "answer": "Templates.uz - bu oddiy va tez veb-sayt yaratish uchun qulay platforma. Siz tayyor shablonlardan foydalanishingiz yoki kod yozmasdan drag & drop quruvchi orqali kerakli veb-saytingizni yaratishingiz mumkin!"
+      },
+      "dragDrop": {
+        "question": "Drag & drop quruvchi veb-sayt yaratishda qanday yordam beradi?",
+        "answer": "Drag & drop quruvchi sahifada rasm, matn, video, tugmalar kabi elementlarni oson joylashtirish va sozlash imkonini beradi. Kod yozmasdan - veb-sayt dizaynini vizual tarzda yaratishingiz mumkin."
+      },
+      "templates": {
+        "question": "Templates.uz da qanday shablonlar mavjud?",
+        "answer": "Bizda biznes, shaxsiy portfolio, onlayn do'kon, blog va boshqa yo'nalishlar uchun professional shablonlar mavjud. Har bir shablonni o'z ehtiyojlaringizga moslashtirishingiz mumkin."
+      },
+      "services": {
+        "question": "Qanday dasturchi xizmatlarini taklif qilasiz?",
+        "answer": "Backend va frontend ishlab chiqish, API integratsiyasi, admin panel yaratish, xavfsizlik va tezlik optimizatsiyasi - barchasi bizning professional xizmatlarimizga kiritilgan!"
+      },
+      "technologies": {
+        "question": "Backend uchun qanday texnologiyalardan foydalanasiz?",
+        "answer": "Biz ishonchli va kengaytiriladigan backend tizimlarini yaratish uchun Laravel (PHP), Node.js va Python kabi zamonaviy texnologiyalar, shuningdek MySQL va MongoDB ma'lumotlar bazalaridan foydalanamiz."
+      },
+      "technical": {
+        "question": "Templates.uz dan foydalanish uchun texnik bilim kerakmi?",
+        "answer": "Texnik bilim talab qilinmaydi! Templates.uz ham yangi boshlovchilar, ham professionallar uchun qulay. Agar maxsus xususiyatlar kerak bo'lsa - bizning dasturchi jamoamiz sizga yordam beradi."
+      },
+      "time": {
+        "question": "Veb-sayt yaratish qancha vaqt oladi?",
+        "answer": "Tayyor shablonlar va drag & drop bilan oddiy veb-saytni bir necha daqiqada yaratishingiz mumkin. Maxsus ishlab chiqish loyihalari 5-10 ish kunini oladi."
+      }
+    },
+    "stillQuestions": {
+      "title": "Hali ham savollaringiz bormi?",
+      "description": "Bizning jamoamiz sizga doimo yordam berishga tayyor!",
+      "cta": "Biz bilan bog'laning"
+    }
+  },
+  "testimonials": {
+    "badge": "Mijozlar sharhlari",
+    "title": {
+      "line1": "Mijozlar",
+      "line2": "sharhlari"
+    },
+    "description": "Templates.uz platformasining mamnun foydalanuvchilarining tajribasi bilan tanishing",
+    "items": {
+      "sarah": {
+        "name": "Sara Jonson",
+        "position": "Biznes egasi",
+        "company": "Gullar dunyosi",
+        "comment": "Templates.uz bilan kichik biznesimiz uchun ajoyib veb-sayt yaratdik. Mijozlarimizga yoqdi va sotuvlarimiz 40% ga oshdi!"
+      },
+      "michael": {
+        "name": "Maykl Chen",
+        "position": "Grafik dizayner",
+        "company": "Frilanser",
+        "comment": "Men dasturchi emasman, lekin Templates.uz orqali professional portfolio veb-saytimni bir necha soatda yaratdim. Ajoyib platforma!"
+      },
+      "emily": {
+        "name": "Emili Rodriges",
+        "position": "Restoran menejeri",
+        "company": "Oziq-ovqat markazi",
+        "comment": "Restoranimiz uchun chiroyli veb-sayt yaratdik. Onlayn buyurtma tizimi vaqtni tejadi va ko'proq mijozlarni jalb qildi. Texnik yordam jamoasi ham ajoyib!"
+      }
+    },
+    "cta": {
+      "title": "Siz ham mamnun mijozlarimizga qo'shiling!",
+      "description": "Bugun veb-saytingizni yaratishni boshlang va biznesingizni rivojlantiring.",
+      "button": "Hozir boshlash"
+    }
+  },
+  "templates": {
+    "title": "Bizning shablonlarimiz",
+    "description": "Har qanday soha uchun professional yaratilgan tayyor dizaynlar",
+    "items": {
+      "business": {
+        "title": "Biznes va korporativ",
+        "description": "Silliq dizayn va kuchli xususiyatlar bilan yirik kompaniyalar va bizneslar uchun mukammal tanlov.",
+        "badge": "Yangi"
+      },
+      "ecommerce": {
+        "title": "Onlayn do'kon",
+        "description": "Mahsulotlaringizni onlayn qulay sotish uchun mukammal yechim.",
+        "badge": "Eng mashhur"
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "Ijodkorlar uchun o'z ishlarini zamonaviy va jozibali tarzda namoyish etish imkoniyati.",
+        "badge": "Trendda"
+      },
+      "restaurant": {
+        "title": "Restoran va kafe",
+        "description": "Ovqatlanish muassasalari uchun ajoyib menyu va bron qilish tizimi bilan shablon.",
+        "badge": "Mobil moslashuvchan"
+      },
+      "blog": {
+        "title": "Blog va jurnal",
+        "description": "Yozuvchilar va jurnalistlar uchun qulay interfeys bilan shablon.",
+        "badge": "SEO optimallashtirilgan"
+      },
+      "education": {
+        "title": "Ta'lim va kurslar",
+        "description": "Ta'lim markazlari va onlayn kurslar uchun maxsus ishlab chiqilgan shablon.",
+        "badge": "Tez yuklanish"
+      },
+      "healthcare": {
+        "title": "Sog'liqni saqlash",
+        "description": "Kasalxonalar va tibbiy markazlar uchun maxsus yaratilgan professional shablon.",
+        "badge": "Maxsus interfeys"
+      },
+      "travel": {
+        "title": "Mehmonxona va turizm",
+        "description": "Mehmonxonalar va turizm biznesi uchun bron qilish tizimi bilan shablon.",
+        "badge": "Tez yuklanish"
+      },
+      "sports": {
+        "title": "Sport va fitnes",
+        "description": "Fitnes klublari va sport markazlari uchun dinamik va energik dizayn.",
+        "badge": "Yangi"
+      }
+    },
+    "buttons": {
+      "view": "Ko'rish",
+      "viewAll": "Barcha shablonlarni ko'rish",
+      "showLess": "Kamroq ko'rsatish"
+    }
+  },
+  "pricing": {
+    "title": "Narx rejalari",
+    "description": "Har qanday byudjet uchun moslashuvchan narxlar",
+    "plans": {
+      "free": {
+        "name": "Bepul",
+        "description": "Yangi boshlovchilar uchun mukammal",
+        "price": "$0",
+        "period": "/oy",
+        "features": [
+          "1 ta veb-sayt",
+          "5 MB saqlash",
+          "Asosiy xususiyatlar: Shablon, Slayder, Forma, Video, Rasm, Muharrir",
+          "Subdomen: site.templates.uz",
+          "Elektron tijorat ❌",
+          "Premium qo'llab-quvvatlash ❌"
+        ],
+        "button": "Boshlash"
+      },
+      "starter": {
+        "name": "Boshlang'ich",
+        "description": "Kichik loyihalar uchun ajoyib",
+        "price": "$3",
+        "period": "/oy",
+        "features": [
+          "3 ta veb-sayt",
+          "100 MB saqlash",
+          "Barcha asosiy xususiyatlar",
+          "Telegram bot orqali tahrirlash",
+          "Subdomen + Favicon",
+          "Elektron tijorat ❌"
+        ],
+        "button": "Boshlash"
+      },
+      "standard": {
+        "name": "Standart",
+        "description": "O'sib borayotgan biznes uchun",
+        "price": "$8",
+        "period": "/oy",
+        "features": [
+          "5 ta veb-sayt",
+          "500 MB saqlash",
+          "Maxsus domen (mysite.uz)",
+          "Oddiy admin panel",
+          "Barcha asosiy xususiyatlar",
+          "Kengaytirilgan analitika ❌"
+        ],
+        "button": "Rejani tanlash",
+        "popular": "Eng mashhur"
+      },
+      "pro": {
+        "name": "Professional",
+        "description": "Professional foydalanuvchilar uchun",
+        "price": "$15",
+        "period": "/oy",
+        "features": [
+          "10 ta veb-sayt",
+          "1 GB saqlash",
+          "To'liq admin panel",
+          "SEO va analitika",
+          "Foydalanuvchi ro'yxatdan o'tishi",
+          "Barcha asosiy xususiyatlar"
+        ],
+        "button": "Rejani tanlash"
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "Katta loyihalar uchun mukammal reja",
+        "price": "$29",
+        "period": "/oy",
+        "features": [
+          "Cheksiz veb-saytlar",
+          "3 GB saqlash",
+          "Ustuvor texnik yordam",
+          "Ko'p tilli veb-saytlar",
+          "Valyuta konvertatsiyasi",
+          "Maxsus integratsiyalar",
+          "Eksklyuziv shablonlar"
+        ],
+        "button": "Rejani tanlash"
+      }
+    },
+    "note": "Yillik to'lov bilan 2 oy bepul!",
+    "learnMore": "Batafsil"
+  },
+  "services": {
+    "badge": "Professional xizmatlar",
+    "title": {
+      "line1": "Bizning ishlab chiqish",
+      "line2": "xizmatlarimiz"
+    },
+    "description": "Orzuingizdagi veb-saytni ishga tushiring - domenlardan to'liq biznes veb-saytlarigacha! Bizning professional jamoamiz barcha talablaringizni qondiradi.",
+    "items": {
+      "domain": {
+        "title": "Domen ro'yxatdan o'tkazish",
+        "price": "$10",
+        "period": "/yil",
+        "description": "Professional domen xizmati bilan brendingizni mustahkamlang",
+        "features": [
+          "Shaxsiy domen (masalan: yoursite.com)",
+          "Domen boshqaruvi va sozlamalar",
+          "Maxfiylik himoyasi (WHOIS)",
+          "24/7 texnik yordam va ko'mak"
+        ]
+      },
+      "website": {
+        "title": "Veb-sayt yaratish",
+        "price": "$99",
+        "period": "/bir martalik",
+        "description": "Zamonaviy va moslashuvchan dizayn bilan professional veb-sayt",
+        "features": [
+          "Maxsus dizayn (5 sahifagacha)",
+          "Mobil moslashuvchan dizayn",
+          "Asosiy SEO optimizatsiya",
+          "1 oy bepul qo'llab-quvvatlash"
+        ]
+      },
+      "personal": {
+        "title": "Shaxsiy veb-sayt yaratish",
+        "price": "$150",
+        "period": "/bir martalik",
+        "description": "Portfolio va shaxsiy brending uchun noyob dizayn",
+        "features": [
+          "Noyob dizayn (3 sahifagacha)",
+          "Aloqa formasi integratsiyasi",
+          "Ijtimoiy tarmoqlar integratsiyasi",
+          "1 oy bepul qo'llab-quvvatlash"
+        ]
+      },
+      "maintenance": {
+        "title": "Veb-sayt xizmat ko'rsatish",
+        "price": "$50",
+        "period": "/oy",
+        "description": "Veb-saytingizni doimo yangi va xavfsiz saqlang",
+        "features": [
+          "Kontent o'zgarishlari (10 tagacha)",
+          "Xavfsizlik yaxshilanishi",
+          "Tezlik optimizatsiyasi",
+          "Oylik zaxira nusxalar"
+        ]
+      },
+      "launch": {
+        "title": "Veb-sayt ishga tushirish",
+        "price": "$75",
+        "period": "/bir martalik",
+        "description": "Veb-saytingizni internetda jonli qilish uchun to'liq xizmat",
+        "features": [
+          "Hosting sozlash va konfiguratsiya",
+          "SSL sertifikat o'rnatish",
+          "DNS sozlamalari va domen ulanishi",
+          "Ishga tushirish testi va tekshirish"
+        ]
+      },
+      "backend": {
+        "title": "Backend ishlab chiqish",
+        "price": "$200+",
+        "period": "/bir martalik",
+        "description": "Kuchli va ishonchli backend tizimlarini yaratish",
+        "features": [
+          "Laravel/PHP bilan backend ishlab chiqish",
+          "Ma'lumotlar bazasi integratsiyasi (MySQL, PostgreSQL)",
+          "API integratsiyalar va xizmatlar",
+          "Admin panel sozlash va boshqarish"
+        ]
+      },
+      "business": {
+        "title": "To'liq biznes veb-sayt",
+        "price": "$499+",
+        "period": "/bir martalik",
+        "description": "Katta biznes uchun professional va to'liq yechim",
+        "features": [
+          "Premium dizayn (10+ sahifa)",
+          "Ilg'or SEO va optimizatsiya",
+          "Elektron tijorat yoki bron qilish tizimi",
+          "To'liq admin panel va boshqarish",
+          "Ijtimoiy tarmoqlar integratsiyasi",
+          "3 oy bepul qo'llab-quvvatlash",
+          "Maxsus hosting va xavfsizlik"
+        ],
+        "popular": "Eng mashhur"
+      }
+    },
+    "buttons": {
+      "getStarted": "Boshlash",
+      "contactNow": "Hozir bog'laning"
+    },
+    "customProject": {
+      "title": "Maxsus loyiha rejalashtiryapsizmi?",
+      "description": "Bizning professional jamoamiz sizning noyob talablaringizga moslashtirilgan yechimlar yaratadi. Keling, birgalikda ajoyib narsalar yarataylik!",
+      "buttons": {
+        "contact": "Darhol bog'laning",
+        "telegram": "Telegram orqali"
+      }
+    }
+  },
+  "contact": {
+    "badge": "Biz bilan bog'laning",
+    "title": {
+      "line1": "Keling, veb-saytingizni",
+      "line2": "birgalikda yarataylik"
+    },
+    "description": "Bizning ishlab chiqish xizmatlarimiz haqida savollaringiz bormi yoki loyihani boshlashga tayyormisiz? Bugun biz bilan bog'laning va professional jamoamiz bilan ishlashni boshlang!",
+    "methods": {
+      "title": "Aloqa usullari",
+      "email": {
+        "title": "Elektron pochta",
+        "content": "support@templates.uz",
+        "description": "Bizga xat yuboring"
+      },
+      "phone": {
+        "title": "Telefon",
+        "content": "+998 33 123 77 90",
+        "description": "Bizga qo'ng'iroq qiling"
+      },
+      "telegram": {
+        "title": "Telegram",
+        "content": "@iqbolshoh_777",
+        "description": "Tez javob uchun"
+      },
+      "address": {
+        "title": "Manzil",
+        "content": "Firdavsiy ko'chasi 51, Samarqand",
+        "description": "Bizning ofisimiz"
+      }
+    },
+    "workingHours": {
+      "title": "Ish vaqti",
+      "monday": "Dushanba - Juma",
+      "mondayTime": "9:00 - 18:00",
+      "saturday": "Shanba",
+      "saturdayTime": "10:00 - 16:00",
+      "sunday": "Yakshanba",
+      "sundayTime": "Yopiq",
+      "status": "Hozir onlayn"
+    },
+    "form": {
+      "title": "Xabar yuborish",
+      "fields": {
+        "name": {
+          "label": "To'liq ism *",
+          "placeholder": "Ismingizni kiriting"
+        },
+        "email": {
+          "label": "Elektron pochta manzili *",
+          "placeholder": "your.email@example.com"
+        },
+        "service": {
+          "label": "Qaysi xizmat kerak? *",
+          "placeholder": "Xizmatni tanlang",
+          "options": {
+            "domain": "Domen ro'yxatdan o'tkazish ($10/yil)",
+            "website": "Veb-sayt yaratish ($99/bir martalik)",
+            "updates": "Veb-sayt yangilanishlari ($50/oy)",
+            "launch": "Veb-sayt ishga tushirish ($75/bir martalik)",
+            "backend": "Backend ishlab chiqish ($200/bir martalik)",
+            "personal": "Shaxsiy veb-sayt ($150/bir martalik)",
+            "business": "Biznes veb-sayt ($499/bir martalik)"
+          }
+        },
+        "subject": {
+          "label": "Mavzu",
+          "placeholder": "Yordam kerakmi?"
+        },
+        "message": {
+          "label": "Sizning xabaringiz *",
+          "placeholder": "Loyihangiz haqida yozing yoki savol bering..."
+        }
+      },
+      "button": {
+        "send": "Xabar yuborish",
+        "sending": "Yuborilmoqda..."
+      },
+      "success": "Sizning xabaringiz muvaffaqiyatli yuborildi!",
+      "error": "Xatolik yuz berdi. Iltimos, keyinroq urinib ko'ring."
+    },
+    "cta": {
+      "title": "Orzuingizdagi veb-saytni ishga tushiring!",
+      "description": "Bizning professional jamoamiz barcha talablaringizni qondiradi. Bugun biz bilan bog'laning va ajoyib veb-sayt yaratishni boshlang!",
+      "buttons": {
+        "telegram": "Telegram orqali bog'laning",
+        "call": "Bizga qo'ng'iroq qiling"
+      }
+    }
+  },
+  "footer": {
+    "description": "Bizning platformamiz bilan o'zingiz uchun professional veb-sayt yarating. Tez, oson va ishonchli!",
+    "links": {
+      "title": "Havolalar"
+    },
+    "useful": {
+      "title": "Foydali",
+      "items": {
+        "helpCenter": "Yordam markazi",
+        "terms": "Foydalanish shartlari",
+        "privacy": "Maxfiylik siyosati",
+        "developerServices": "Dasturchi xizmatlari"
+      }
+    },
+    "contactUs": {
+      "title": "Biz bilan bog'laning",
+      "description": "Dasturchi kerakmi? Veb-sayt yaratish, yangilash yoki shaxsiy va biznes veb-saytlari uchun hozir biz bilan bog'laning!"
+    },
+    "newsletter": {
+      "title": "Yangiliklar",
+      "description": "Eng so'nggi yangiliklar va takliflardan xabardor bo'ling",
+      "placeholder": "Sizning elektron pochta manzilingiz",
+      "button": "Obuna bo'lish"
+    },
+    "bottom": {
+      "copyright": "© {{year}} Templates.uz. Barcha huquqlar himoyalangan.",
+      "privacy": "Maxfiylik siyosati",
+      "terms": "Foydalanish shartlari",
+      "online": "Onlayn"
+    }
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik",
+    "success": "Muvaffaqiyat",
+    "cancel": "Bekor qilish",
+    "save": "Saqlash",
+    "edit": "Tahrirlash",
+    "delete": "O'chirish",
+    "view": "Ko'rish",
+    "close": "Yopish",
+    "next": "Keyingi",
+    "previous": "Oldingi",
+    "search": "Qidirish",
+    "filter": "Filtr",
+    "sort": "Saralash",
+    "more": "Ko'proq",
+    "less": "Kamroq"
   }
 }
