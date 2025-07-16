@@ -46,39 +46,47 @@ const Header: React.FC = () => {
   const handleLanguageChange = (language: Language) => {
     setSelectedLanguage(language);
     setIsLanguageDropdownOpen(false);
-    // Here you would typically also change the application language
   };
 
   return (
-    <nav className="bg-white shadow-lg sticky top-0 z-50">
+    <nav className="bg-white/95 backdrop-blur-lg shadow-xl border-b border-gray-100 sticky top-0 z-50 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="flex items-center text-primary font-heading font-bold text-xl">
-              <img src="/assets/images/logo_2.png" className="w-12 h-12" alt="Logo" />
-              <span>
-                <span className="text-secondary-700">Templates</span>
-                <span className="text-primary-500">.uz</span>
-              </span>
+            <Link to="/" className="flex items-center space-x-3 group">
+              <div className="relative">
+                <img 
+                  src="/assets/images/logo_2.png" 
+                  className="w-12 h-12 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105" 
+                  alt="Logo" 
+                />
+                <div className="absolute inset-0 bg-gradient-to-tr from-primary-500/20 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+              <div className="font-heading font-bold text-2xl">
+                <span className="bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">Templates</span>
+                <span className="bg-gradient-to-r from-primary-500 to-primary-600 bg-clip-text text-transparent">.uz</span>
+              </div>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="ml-10 flex items-baseline space-x-1">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
                   to={item.href}
-                  className={`px-3 py-2 text-sm font-medium transition-colors duration-200 relative group ${isActive(item.href)
-                    ? 'text-primary-500 font-semibold'
-                    : 'text-secondary-600 hover:text-primary-500'
-                    }`}
+                  className={`relative px-4 py-2 text-sm font-medium transition-all duration-300 rounded-lg group ${
+                    isActive(item.href)
+                      ? 'text-primary-600 bg-primary-50'
+                      : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                  }`}
                 >
                   {item.label}
-                  <span className={`absolute bottom-0 left-0 w-0 h-0.5 bg-primary-500 transition-all duration-300 group-hover:w-full ${isActive(item.href) ? 'w-full' : ''
-                    }`}></span>
+                  <span className={`absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-gradient-to-r from-primary-500 to-primary-600 transition-all duration-300 group-hover:w-3/4 ${
+                    isActive(item.href) ? 'w-3/4' : ''
+                  }`}></span>
                 </Link>
               ))}
             </div>
@@ -89,22 +97,23 @@ const Header: React.FC = () => {
             {/* Language Dropdown */}
             <div className="relative">
               <button
-                className="flex items-center space-x-2 text-secondary-600 hover:text-primary-500 transition-colors"
+                className="flex items-center space-x-2 px-3 py-2 text-gray-700 hover:text-primary-600 transition-colors rounded-lg hover:bg-gray-50"
                 onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
               >
                 {selectedLanguage.flagIcon ? (
                   <img
                     src={selectedLanguage.flagIcon}
                     alt={selectedLanguage.name}
-                    className="w-5 rounded-sm"
+                    className="w-5 h-4 rounded-sm shadow-sm"
                   />
                 ) : (
                   <span className="text-lg">{selectedLanguage.flag}</span>
                 )}
-                <span className="text-sm">{selectedLanguage.name}</span>
+                <span className="text-sm font-medium">{selectedLanguage.name}</span>
                 <svg
-                  className={`w-4 h-4 transition-transform ${isLanguageDropdownOpen ? 'rotate-180' : ''
-                    }`}
+                  className={`w-4 h-4 transition-transform duration-200 ${
+                    isLanguageDropdownOpen ? 'rotate-180' : ''
+                  }`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -114,21 +123,21 @@ const Header: React.FC = () => {
               </button>
 
               {isLanguageDropdownOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50">
+                <div className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-xl border border-gray-100 py-2 z-50 backdrop-blur-lg">
                   {languages.map((language) => (
                     <button
                       key={language.code}
-                      className="flex items-center px-4 py-2 text-sm text-secondary-600 hover:bg-primary-50 w-full text-left"
+                      className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 w-full text-left transition-colors"
                       onClick={() => handleLanguageChange(language)}
                     >
                       {language.flagIcon ? (
                         <img
                           src={language.flagIcon}
                           alt={language.name}
-                          className="w-5 mr-2 rounded-sm"
+                          className="w-5 h-4 mr-3 rounded-sm shadow-sm"
                         />
                       ) : (
-                        <span className="mr-2">{language.flag}</span>
+                        <span className="mr-3">{language.flag}</span>
                       )}
                       {language.name}
                     </button>
@@ -140,13 +149,13 @@ const Header: React.FC = () => {
             {/* Auth Buttons */}
             <Link
               to="/login"
-              className="border border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white text-sm py-2 px-4 rounded transition-colors"
+              className="px-4 py-2 text-sm font-medium text-primary-600 border-2 border-primary-200 hover:border-primary-300 rounded-lg transition-all duration-300 hover:bg-primary-50 hover:scale-105"
             >
               Kirish
             </Link>
             <Link
               to="/register"
-              className="bg-primary-500 text-white hover:bg-primary-600 text-sm py-2 px-4 rounded transition-colors"
+              className="px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
             >
               Roʻyxatdan oʻtish
             </Link>
@@ -156,7 +165,7 @@ const Header: React.FC = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-secondary-600 hover:text-primary-500 focus:outline-none focus:text-primary-500"
+              className="p-2 text-gray-700 hover:text-primary-600 focus:outline-none focus:text-primary-600 rounded-lg hover:bg-gray-50 transition-colors"
               aria-label="Toggle menu"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -173,15 +182,16 @@ const Header: React.FC = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white/95 backdrop-blur-lg border-t border-gray-100 rounded-b-xl shadow-lg">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
                   to={item.href}
-                  className={`block px-3 py-2 text-base font-medium transition-colors ${isActive(item.href)
-                    ? 'text-primary-500 font-semibold'
-                    : 'text-secondary-600 hover:text-primary-500'
-                    }`}
+                  className={`block px-4 py-3 text-base font-medium transition-colors rounded-lg ${
+                    isActive(item.href)
+                      ? 'text-primary-600 bg-primary-50'
+                      : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                  }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}
@@ -191,14 +201,14 @@ const Header: React.FC = () => {
                 <div className="flex flex-col space-y-3">
                   <Link
                     to="/login"
-                    className="border border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white text-center py-2 px-4 rounded transition-colors"
+                    className="text-center py-3 px-4 text-primary-600 border-2 border-primary-200 hover:border-primary-300 rounded-lg transition-colors hover:bg-primary-50"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Kirish
                   </Link>
                   <Link
                     to="/register"
-                    className="bg-primary-500 text-white hover:bg-primary-600 text-center py-2 px-4 rounded transition-colors"
+                    className="text-center py-3 px-4 text-white bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 rounded-lg transition-colors shadow-lg"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Roʻyxatdan oʻtish
