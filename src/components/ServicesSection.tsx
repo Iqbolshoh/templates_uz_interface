@@ -15,15 +15,15 @@ const ServicesSection: React.FC = () => {
   const services: Service[] = [
     {
       id: 1,
-      title: 'Domen roʻyxatdan oʻtkazish',
+      title: 'Domain Registration',
       price: '$10',
-      period: '/yiliga',
-      description: 'Professional domen xizmati bilan brendingizni mustahkamlang',
+      period: '/year',
+      description: 'Strengthen your branding with professional domain service',
       features: [
-        'Shaxsiy domen (masalan: saytuz.com)',
-        'Domen boshqaruvi va sozlamalari',
-        'Maxfiylik himoyasi (WHOIS)',
-        '24/7 texnik yordam va qoʻllab-quvvatlash'
+        'Personal domain (e.g.: yoursite.com)',
+        'Domain management and settings',
+        'Privacy protection (WHOIS)',
+        '24/7 technical support and assistance'
       ],
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -33,15 +33,15 @@ const ServicesSection: React.FC = () => {
     },
     {
       id: 2,
-      title: 'Sayt yaratish',
+      title: 'Website Creation',
       price: '$99',
-      period: '/bir martalik',
-      description: 'Zamonaviy va responsive dizayn bilan professional sayt',
+      period: '/one-time',
+      description: 'Professional website with modern and responsive design',
       features: [
-        'Maxsus dizayn (5 sahifagacha)',
-        'Mobil qurilmalarga mos responsive',
-        'Asosiy SEO optimizatsiyasi',
-        '1 oylik bepul qoʻllab-quvvatlash'
+        'Custom design (up to 5 pages)',
+        'Mobile responsive design',
+        'Basic SEO optimization',
+        '1 month free support'
       ],
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -51,15 +51,15 @@ const ServicesSection: React.FC = () => {
     },
     {
       id: 3,
-      title: 'Shaxsiy sayt yaratish',
+      title: 'Personal Website Creation',
       price: '$150',
-      period: '/bir martalik',
-      description: 'Portfolio va shaxsiy brendingiz uchun noyob dizayn',
+      period: '/one-time',
+      description: 'Unique design for your portfolio and personal branding',
       features: [
-        'Unikal dizayn (3 sahifagacha)',
-        'Kontakt formasi integratsiyasi',
-        'Ijtimoiy tarmoqlar bilan bogʻlanish',
-        '1 oylik bepul qoʻllab-quvvatlash'
+        'Unique design (up to 3 pages)',
+        'Contact form integration',
+        'Social media integration',
+        '1 month free support'
       ],
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -69,15 +69,15 @@ const ServicesSection: React.FC = () => {
     },
     {
       id: 4,
-      title: 'Saytni yangilab borish',
+      title: 'Website Maintenance',
       price: '$50',
-      period: '/oyiga',
-      description: 'Saytingizni doimo yangi va xavfsiz holatda saqlang',
+      period: '/month',
+      description: 'Keep your website always fresh and secure',
       features: [
-        'Kontent oʻzgarishlari (10 tagacha)',
-        'Xavfsizlikni mustahkamlash',
-        'Tezlikni oshirish va optimizatsiya',
-        'Oylik zaxira nusxalar'
+        'Content changes (up to 10)',
+        'Security enhancements',
+        'Speed optimization',
+        'Monthly backups'
       ],
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -87,15 +87,15 @@ const ServicesSection: React.FC = () => {
     },
     {
       id: 5,
-      title: 'Saytni ishga tushirish',
+      title: 'Website Launch',
       price: '$75',
-      period: '/bir martalik',
-      description: 'Saytingizni internetda jonli qilish uchun toʻliq xizmat',
+      period: '/one-time',
+      description: 'Complete service to make your website live on the internet',
       features: [
-        'Hosting sozlash va konfiguratsiya',
-        'SSL sertifikat oʻrnatish',
-        'DNS sozlamalari va domainni ulash',
-        'Ishga tushirish testi va tekshiruv'
+        'Hosting setup and configuration',
+        'SSL certificate installation',
+        'DNS settings and domain connection',
+        'Launch testing and verification'
       ],
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -105,15 +105,15 @@ const ServicesSection: React.FC = () => {
     },
     {
       id: 6,
-      title: 'Sayt uchun backend',
+      title: 'Backend Development',
       price: '$200+',
-      period: '/bir martalik',
-      description: 'Kuchli va ishonchli backend tizimi yaratish',
+      period: '/one-time',
+      description: 'Creating powerful and reliable backend systems',
       features: [
-        'Laravel/PHP asosida backend yozish',
-        'Maʻlumotlar bazasi ulash (MySQL, PostgreSQL)',
-        'API integratsiyalari va xizmatlar',
-        'Admin panel sozlash va boshqaruv'
+        'Backend development with Laravel/PHP',
+        'Database integration (MySQL, PostgreSQL)',
+        'API integrations and services',
+        'Admin panel setup and management'
       ],
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -123,18 +123,18 @@ const ServicesSection: React.FC = () => {
     },
     {
       id: 7,
-      title: 'Biznes uchun toʻliq sayt',
+      title: 'Complete Business Website',
       price: '$499+',
-      period: '/bir martalik',
-      description: 'Katta biznes uchun professional va toʻliq echim',
+      period: '/one-time',
+      description: 'Professional and complete solution for large businesses',
       features: [
-        'Premium dizayn (10+ sahifa)',
-        'Kengaytirilgan SEO va optimizatsiya',
-        'Internet doʻkon yoki bron qilish tizimi',
-        'Toʻliq admin panel va boshqaruv',
-        'Ijtimoiy tarmoqlarga integratsiya',
-        '3 oylik bepul qoʻllab-quvvatlash',
-        'Maxsus hosting va xavfsizlik'
+        'Premium design (10+ pages)',
+        'Advanced SEO and optimization',
+        'E-commerce or booking system',
+        'Complete admin panel and management',
+        'Social media integration',
+        '3 months free support',
+        'Custom hosting and security'
       ],
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -156,18 +156,18 @@ const ServicesSection: React.FC = () => {
                 <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
                 <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
               </svg>
-              Professional xizmatlar
+             Professional Services
             </span>
           </div>
           
           <h1 className="text-5xl md:text-6xl font-black mb-8">
-            <span className="text-secondary-950">Dasturchilik </span>
-            <span className="text-primary-500">xizmatlarimiz</span>
+           <span className="text-secondary-950">Our Development </span>
+           <span className="text-primary-500">Services</span>
           </h1>
           
           <p className="text-xl text-secondary-600 max-w-4xl mx-auto leading-relaxed">
-            Orzuingizdagi saytni ishga tushiring — domenlardan tortib toʻliq biznes saytlarigacha! 
-            Professional jamoamiz sizning har qanday talabingizni qondiradi.
+           Launch your dream website — from domains to complete business websites! 
+           Our professional team meets all your requirements.
           </p>
         </div>
 
@@ -190,7 +190,7 @@ const ServicesSection: React.FC = () => {
                       <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clipRule="evenodd" />
                       </svg>
-                      Eng mashhur
+                      Most Popular
                     </span>
                   </div>
                 </div>
@@ -247,7 +247,7 @@ const ServicesSection: React.FC = () => {
                   ? 'bg-primary-500 text-white hover:bg-primary-600 shadow-glow-red hover:shadow-glow-red-lg'
                   : 'bg-secondary-950 text-white hover:bg-primary-500 hover:shadow-glow-red'
               }`}>
-                {service.isPopular ? 'Hozir bogʻlaning' : 'Boshlash'}
+                {service.isPopular ? 'Contact Now' : 'Get Started'}
               </button>
             </div>
           ))}
@@ -256,11 +256,11 @@ const ServicesSection: React.FC = () => {
         {/* Bottom CTA */}
         <div className="text-center bg-secondary-50 rounded-3xl p-12 border border-secondary-200">
           <h3 className="text-3xl font-bold text-secondary-950 mb-4">
-            Maxsus loyiha rejalashtiryapsizmi?
+            Planning a custom project?
           </h3>
           <p className="text-xl text-secondary-600 mb-8 max-w-2xl mx-auto">
-            Bizning professional jamoamiz sizning noyob talablaringizga mos echim yaratadi. 
-            Keling, birgalikda ajoyib narsalar yarataylik!
+            Our professional team creates solutions tailored to your unique requirements. 
+            Let's create amazing things together!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
@@ -270,7 +270,7 @@ const ServicesSection: React.FC = () => {
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              Darhol bogʻlaning
+              Contact Immediately
             </a>
             <a 
               href="https://t.me/iqbolshoh_777" 
@@ -281,7 +281,7 @@ const ServicesSection: React.FC = () => {
               <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
               </svg>
-              Telegram orqali
+              Via Telegram
             </a>
           </div>
         </div>

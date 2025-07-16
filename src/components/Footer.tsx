@@ -6,17 +6,17 @@ const Footer: React.FC = () => {
 
   const footerLinks = {
     main: [
-      { label: 'Bosh sahifa', href: '/' },
-      { label: 'Shablonlar', href: '/templates' },
-      { label: 'Narxlar', href: '/pricing' },
-      { label: 'Xizmatlar', href: '/services' },
-      { label: 'Bogʻlanish', href: '/contact' },
+      { label: 'Home', href: '/' },
+      { label: 'Templates', href: '/templates' },
+      { label: 'Pricing', href: '/pricing' },
+      { label: 'Services', href: '/services' },
+      { label: 'Contact', href: '/contact' },
     ],
     useful: [
-      { label: 'Yordam markazi', href: '#help-center' },
-      { label: 'Foydalanish shartlari', href: '#terms-of-use' },
-      { label: 'Maxfiylik siyosati', href: '#privacy-policy' },
-      { label: 'Dasturchi xizmatlari', href: '/services' },
+      { label: 'Help Center', href: '#help-center' },
+      { label: 'Terms of Use', href: '#terms-of-use' },
+      { label: 'Privacy Policy', href: '#privacy-policy' },
+      { label: 'Developer Services', href: '/services' },
       { label: '+998 99 779 93 33', href: 'tel:+998997799333' },
     ]
   };
@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
               </div>
             </Link>
             <p className="text-secondary-300 text-sm leading-relaxed mb-6">
-              Bizning platformamiz yordamida oʻzingiz uchun professional veb-sayt yarating. Tez, oson va ishonchli!
+              Create a professional website for yourself with our platform. Fast, easy and reliable!
             </p>
             
             {/* Social Links */}
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
           {/* Main Links */}
           <div>
             <h5 className="font-sans font-bold text-white mb-6 relative">
-              <span className="relative z-10">Havolalar</span>
+              <span className="relative z-10">Links</span>
               <div className="absolute bottom-0 left-0 w-12 h-1 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full"></div>
             </h5>
             <ul className="space-y-3">
@@ -121,7 +121,7 @@ const Footer: React.FC = () => {
           {/* Useful Links */}
           <div>
             <h5 className="font-sans font-bold text-white mb-6 relative">
-              <span className="relative z-10">Foydali</span>
+              <span className="relative z-10">Useful</span>
               <div className="absolute bottom-0 left-0 w-12 h-1 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full"></div>
             </h5>
             <ul className="space-y-3">
@@ -160,11 +160,11 @@ const Footer: React.FC = () => {
           {/* Contact Info */}
           <div>
             <h5 className="font-sans font-bold text-white mb-6 relative">
-              <span className="relative z-10">Biz bilan bogʻlaning</span>
+              <span className="relative z-10">Contact Us</span>
               <div className="absolute bottom-0 left-0 w-12 h-1 bg-gradient-to-r from-primary-500 to-primary-600 rounded-full"></div>
             </h5>
             <p className="text-secondary-300 text-sm mb-6 italic leading-relaxed">
-              Dasturchi kerakmi? Veb-sayt yaratish, yangilash yoki shaxsiy va biznes veb-saytlari uchun hozir biz bilan bogʻlaning!
+              Need a developer? Contact us now for website creation, updates or personal and business websites!
             </p>
 
             <div className="space-y-4 mb-6">
@@ -194,16 +194,16 @@ const Footer: React.FC = () => {
 
             {/* Newsletter Signup */}
             <div className="bg-gradient-to-br from-secondary-800/50 to-secondary-700/50 rounded-2xl p-4 border border-secondary-700">
-              <h6 className="font-semibold text-white mb-2 text-sm">Yangiliklar</h6>
-              <p className="text-secondary-400 text-xs mb-3">Eng so'nggi yangiliklar va takliflardan xabardor bo'ling</p>
+              <h6 className="font-semibold text-white mb-2 text-sm">Newsletter</h6>
+              <p className="text-secondary-400 text-xs mb-3">Stay informed about the latest news and offers</p>
               <div className="flex">
                 <input
                   type="email"
-                  placeholder="Email manzilingiz"
+                  placeholder="Your email address"
                   className="flex-1 px-3 py-2 bg-secondary-700 text-white text-xs rounded-l-lg border border-secondary-600 focus:border-primary-500 focus:outline-none"
                 />
                 <button className="px-4 py-2 bg-gradient-to-r from-primary-500 to-primary-600 text-white text-xs rounded-r-lg hover:from-primary-600 hover:to-primary-700 transition-colors">
-                  Obuna
+                  Subscribe
                 </button>
               </div>
             </div>
@@ -214,18 +214,18 @@ const Footer: React.FC = () => {
         <div className="border-t border-secondary-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-secondary-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Templates.uz. Barcha huquqlar himoyalangan.
+              © {currentYear} Templates.uz. All rights reserved.
             </p>
             <div className="flex items-center space-x-6">
               <a href="#privacy" className="text-secondary-400 hover:text-white text-sm transition-colors">
-                Maxfiylik siyosati
+                Privacy Policy
               </a>
               <a href="#terms" className="text-secondary-400 hover:text-white text-sm transition-colors">
-                Foydalanish shartlari
+                Terms of Use
               </a>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-primary-500 rounded-full animate-pulse"></div>
-                <span className="text-secondary-400 text-sm">Onlayn</span>
+                <span className="text-secondary-400 text-sm">Online</span>
               </div>
             </div>
           </div>

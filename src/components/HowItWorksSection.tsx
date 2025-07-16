@@ -11,8 +11,8 @@ const HowItWorksSection: React.FC = () => {
   const steps: Step[] = [
     {
       number: 1,
-      title: 'Shablonni tanlang',
-      description: 'Bizning kolleksiyamizdan mos shablonni tanlang yoki jamoamizdan maxsus dizayn so\'rang.',
+      title: 'Choose a Template',
+      description: 'Select a suitable template from our collection or request a custom design from our team.',
       icon: (
         <svg className="w-6 sm:w-8 h-6 sm:h-8" fill="currentColor" viewBox="0 0 20 20">
           <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
@@ -21,8 +21,8 @@ const HowItWorksSection: React.FC = () => {
     },
     {
       number: 2,
-      title: 'Kontentingizni qo\'shing',
-      description: 'Matn, rasm va videolaringizni oddiy interfeys orqali yuklang va sozlang.',
+      title: 'Add Your Content',
+      description: 'Upload and configure your text, images and videos through a simple interface.',
       icon: (
         <svg className="w-6 sm:w-8 h-6 sm:h-8" fill="currentColor" viewBox="0 0 20 20">
           <path fillRule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clipRule="evenodd" />
@@ -31,8 +31,8 @@ const HowItWorksSection: React.FC = () => {
     },
     {
       number: 3,
-      title: 'Saytni nashr eting',
-      description: 'Birgina bosish orqali saytingizni internetga joylang. Domen yoki hosting haqida bosh qotirmang!',
+      title: 'Publish Your Site',
+      description: 'Launch your website online with a single click. Don\'t worry about domain or hosting!',
       icon: (
         <svg className="w-6 sm:w-8 h-6 sm:h-8" fill="currentColor" viewBox="0 0 20 20">
           <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -128,21 +128,21 @@ const HowItWorksSection: React.FC = () => {
                           <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
                         </svg>
                       </div>
-                      <p className="text-red-600 font-semibold text-base sm:text-lg">Video yuklanmoqda...</p>
-                      <p className="text-gray-500 text-xs sm:text-sm mt-2">Sayt yaratish jarayonini ko'ring</p>
+                      <p className="text-red-600 font-semibold text-base sm:text-lg">Video loading...</p>
+                      <p className="text-gray-500 text-xs sm:text-sm mt-2">Watch the website creation process</p>
                     </div>
-                  </div>
+            Simple Process
                 </video>
                 
                 {/* Overlay Gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              How does it 
               </div>
 
-              {/* Decorative Elements */}
+              work?
               <div className="absolute -top-2 sm:-top-4 -left-2 sm:-left-4 w-6 sm:w-8 h-6 sm:h-8 bg-gradient-to-br from-red-400 to-red-500 rounded-full opacity-80 animate-pulse"></div>
               <div className="absolute -bottom-2 sm:-bottom-4 -right-2 sm:-right-4 w-4 sm:w-6 h-4 sm:h-6 bg-gradient-to-br from-red-400 to-red-500 rounded-full opacity-60 animate-pulse" style={{ animationDelay: '1s' }}></div>
               <div className="absolute top-1/2 -right-3 sm:-right-6 w-3 sm:w-4 h-3 sm:h-4 bg-gradient-to-br from-red-400 to-red-500 rounded-full opacity-70 animate-pulse" style={{ animationDelay: '2s' }}></div>
-            </div>
+            Create your website in just 3 steps!
           </div>
         </div>
       </div>

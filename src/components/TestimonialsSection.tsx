@@ -12,28 +12,28 @@ interface Testimonial {
 const TestimonialsSection: React.FC = () => {
   const testimonials: Testimonial[] = [
     {
-      name: 'Dilfuza Rahimova',
+      name: 'Sarah Johnson',
       rating: 5,
-      comment: 'Templates.uz yordamida kichik biznesimiz uchun ajoyib sayt yaratdik. Mijozlarimizga juda yoqdi, savdolarimiz esa 40% ga oshdi!',
+      comment: 'We created an amazing website for our small business with Templates.uz. Our customers loved it, and our sales increased by 40%!',
       avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80',
-      position: 'Biznes egasi',
-      company: 'Gullar Dunyosi'
+      position: 'Business Owner',
+      company: 'Flower World'
     },
     {
-      name: 'Javlonbek Ismoilov',
+      name: 'Michael Chen',
       rating: 5,
-      comment: 'Men dasturchi emasman, lekin Templates.uz orqali atigi bir necha soat ichida professional portfolio saytimni yaratdim. Zo\'r platforma!',
+      comment: 'I\'m not a developer, but I created my professional portfolio website in just a few hours through Templates.uz. Great platform!',
       avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80',
-      position: 'Grafik dizayner',
+      position: 'Graphic Designer',
       company: 'Freelancer'
     },
     {
-      name: 'Zarina Qodirova',
+      name: 'Emily Rodriguez',
       rating: 4.5,
-      comment: 'Restoranimiz uchun chiroyli sayt yaratdik. Onlayn buyurtma tizimi vaqtdan yutdi, ko\'proq mijozlar jalb qildi. Texnik yordam jamoasi ham juda zo\'r!',
+      comment: 'We created a beautiful website for our restaurant. The online ordering system saved time and attracted more customers. The technical support team is also great!',
       avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80',
-      position: 'Restoran menejeri',
-      company: 'Osh Markazi'
+      position: 'Restaurant Manager',
+      company: 'Food Center'
     }
   ];
 
@@ -93,18 +93,18 @@ const TestimonialsSection: React.FC = () => {
             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
             </svg>
-            Mijozlarimiz fikri
+            Customer Reviews
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-black mb-4 sm:mb-6">
             <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-              Mijozlarimiz 
+              Customer 
             </span>
             <span className="bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">
-              fikrlari
+              testimonials
             </span>
           </h2>
           <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Templates.uz platformasidan mamnun foydalanuvchilarning tajribasi bilan tanishing
+            Get familiar with the experience of satisfied users of the Templates.uz platform
           </p>
         </div>
 
@@ -176,10 +176,10 @@ const TestimonialsSection: React.FC = () => {
         <div className="text-center mt-12 sm:mt-16">
           <div className="inline-block p-6 sm:p-8 bg-gradient-to-br from-red-50 to-red-100 rounded-3xl border border-red-200">
             <h3 className="text-xl sm:text-2xl font-heading font-bold text-gray-800 mb-3 sm:mb-4">
-              Siz ham mamnun mijozlarimiz qatoriga qo'shiling!
+              Join our satisfied customers too!
             </h3>
             <p className="text-gray-600 mb-4 sm:mb-6 text-sm sm:text-base">
-              Bugun o'z saytingizni yaratishni boshlang va biznessingizni rivojlantiring.
+              Start creating your website today and grow your business.
             </p>
             <a 
               href="http://builder.templates.uz/" 
@@ -188,7 +188,7 @@ const TestimonialsSection: React.FC = () => {
               <svg className="w-4 sm:w-5 h-4 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
-              <span>Hozir boshlang</span>
+              <span>Start Now</span>
             </a>
           </div>
         </div>

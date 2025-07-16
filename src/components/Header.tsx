@@ -18,24 +18,24 @@ const Header: React.FC = () => {
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const location = useLocation();
   const [selectedLanguage, setSelectedLanguage] = useState<Language>({
-    code: 'uz',
-    name: 'Oʻzbekcha',
-    flag: '🇺🇿',
-    flagIcon: '/assets/images/flags/uz.svg'
+    code: 'en',
+    name: 'English',
+    flag: '🇬🇧',
+    flagIcon: '/assets/images/flags/gb.svg'
   });
 
   const navItems: NavItem[] = [
-    { label: 'Bosh sahifa', href: '/' },
-    { label: 'Shablonlar', href: '/templates' },
-    { label: 'Narxlar', href: '/pricing' },
-    { label: 'Xizmatlar', href: '/services' },
-    { label: 'Bogʻlanish', href: '/contact' },
+    { label: 'Home', href: '/' },
+    { label: 'Templates', href: '/templates' },
+    { label: 'Pricing', href: '/pricing' },
+    { label: 'Services', href: '/services' },
+    { label: 'Contact', href: '/contact' },
   ];
 
   const languages: Language[] = [
     { code: 'en', name: 'English', flag: '🇬🇧', flagIcon: '/assets/images/flags/gb.svg' },
     { code: 'ru', name: 'Русский', flag: '🇷🇺', flagIcon: '/assets/images/flags/ru.svg' },
-    { code: 'uz', name: 'Oʻzbekcha', flag: '🇺🇿', flagIcon: '/assets/images/flags/uz.svg' },
+    { code: 'uz', name: 'Uzbek', flag: '🇺🇿', flagIcon: '/assets/images/flags/uz.svg' },
     { code: 'tj', name: 'Тоҷикӣ', flag: '🇹🇯', flagIcon: '/assets/images/flags/tj.svg' },
   ];
 
@@ -151,13 +151,13 @@ const Header: React.FC = () => {
               to="/login"
               className="px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium text-red-600 border-2 border-red-200 hover:border-red-300 rounded-lg transition-all duration-300 hover:bg-red-50 hover:scale-105"
             >
-              Kirish
+              Login
             </Link>
             <Link
               to="/register"
               className="px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium text-white bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-glow-red"
             >
-              Roʻyxatdan oʻtish
+              Sign Up
             </Link>
           </div>
 
@@ -204,14 +204,14 @@ const Header: React.FC = () => {
                     className="text-center py-2 sm:py-3 px-4 text-red-600 border-2 border-red-200 hover:border-red-300 rounded-lg transition-colors hover:bg-red-50 text-sm sm:text-base"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Kirish
+                    Login
                   </Link>
                   <Link
                     to="/register"
                     className="text-center py-2 sm:py-3 px-4 text-white bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 rounded-lg transition-colors shadow-lg text-sm sm:text-base"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Roʻyxatdan oʻtish
+                    Sign Up
                   </Link>
                 </div>
               </div>

@@ -15,8 +15,8 @@ const FeaturesSection: React.FC = () => {
           <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
         </svg>
       ),
-      title: 'Drag & Drop Tuzuvchi',
-      description: 'Kod yozmasdan saytingizni sozlang. Elementlarni osongina joylashtiring va joylarini o\'zgartiring.',
+      title: 'Drag & Drop Builder',
+      description: 'Configure your website without writing code. Easily place and rearrange elements.',
       link: '#'
     },
     {
@@ -25,8 +25,8 @@ const FeaturesSection: React.FC = () => {
           <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" />
         </svg>
       ),
-      title: 'Tayyor shablonlar',
-      description: '150 dan ortiq professional dizayndagi shablonlardan birini tanlang va xohishingizga moslab o\'zgartiring.',
+      title: 'Ready Templates',
+      description: 'Choose from over 150 professionally designed templates and customize them to your liking.',
       link: '#'
     },
     {
@@ -35,8 +35,8 @@ const FeaturesSection: React.FC = () => {
           <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clipRule="evenodd" />
         </svg>
       ),
-      title: 'Dasturchi xizmatlari',
-      description: 'Shaxsiy maqsadlaringizga moslashtirilgan maxsus saytni bizning professional dasturchimiz yaratib beradi.',
+      title: 'Developer Services',
+      description: 'Our professional developers will create a custom website tailored to your personal goals.',
       link: '#'
     },
     {
@@ -45,8 +45,8 @@ const FeaturesSection: React.FC = () => {
           <path fillRule="evenodd" d="M3 5a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2h-2.22l.123.489.804.804A1 1 0 0113 18H7a1 1 0 01-.707-1.707l.804-.804L7.22 15H5a2 2 0 01-2-2V5zm5.771 7H5V5h10v7H8.771z" clipRule="evenodd" />
         </svg>
       ),
-      title: 'Mobil moslashuvchanlik',
-      description: 'Saytingiz barcha qurilmalarda ideal ko\'rinishda bo\'ladi — avtomatik moslashish texnologiyasi bilan!',
+      title: 'Mobile Responsive',
+      description: 'Your website will look perfect on all devices — with automatic responsive technology!',
       link: '#'
     },
     {
@@ -55,8 +55,8 @@ const FeaturesSection: React.FC = () => {
           <path fillRule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clipRule="evenodd" />
         </svg>
       ),
-      title: 'Yuqori tezlik',
-      description: 'Optimallashtirilgan kod va CDN yordami bilan sahifalar 90% tezroq yuklanadi. Ajoyib foydalanuvchi tajribasi!',
+      title: 'High Speed',
+      description: 'Pages load 90% faster with optimized code and CDN support. Amazing user experience!',
       link: '#'
     },
     {
@@ -65,8 +65,8 @@ const FeaturesSection: React.FC = () => {
           <path fillRule="evenodd" d="M18 10c0 3.866-3.582 7-8 7a8.841 8.841 0 01-4.083-.98L2 17l1.338-3.123C2.493 12.767 2 11.434 2 10c0-3.866 3.582-7 8-7s8 3.134 8 7zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z" clipRule="evenodd" />
         </svg>
       ),
-      title: '24/7 Qo\'llab-quvvatlash',
-      description: 'Bizning jamoamiz har doim sizga yordam berishga tayyor — email, chat yoki telefon orqali!',
+      title: '24/7 Support',
+      description: 'Our team is always ready to help you — via email, chat or phone!',
       link: '#'
     }
   ];
@@ -85,18 +85,18 @@ const FeaturesSection: React.FC = () => {
             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            Nima uchun bizni tanlashadi?
+            Why choose us?
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-sans font-black mb-4 sm:mb-6">
             <span className="bg-gradient-to-r from-black to-gray-700 bg-clip-text text-transparent">
-              Nega aynan 
+              Why exactly 
             </span>
             <span className="bg-gradient-to-r from-red-500 to-red-700 bg-clip-text text-transparent">
-              {' '}biz?
+              us?
             </span>
           </h2>
           <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Templates.uz platformasi kuchli vositalar va erkin sozlash imkoniyati bilan eng zo'r sayt yaratish tajribasini taklif qiladi.
+            Templates.uz platform offers the best website creation experience with powerful tools and flexible customization options.
           </p>
         </div>
 
@@ -128,7 +128,7 @@ const FeaturesSection: React.FC = () => {
                   href={feature.link}
                   className="inline-flex items-center text-red-600 font-semibold hover:text-red-700 transition-colors group-hover:scale-105 transform duration-300 text-sm sm:text-base"
                 >
-                  Batafsil
+                  Learn More
                   <svg className="w-3 sm:w-4 h-3 sm:h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>

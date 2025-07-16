@@ -16,89 +16,89 @@ const PricingSection: React.FC = () => {
   const plans: PricingPlan[] = [
     {
       id: 1,
-      name: 'Bepul',
-      description: 'Yangi boshlovchilar uchun ideal',
+      name: 'Free',
+      description: 'Perfect for beginners',
       price: '$0',
-      period: '/oy',
+      period: '/month',
       features: [
-        '1 ta sayt',
-        '5 MB saqlash joyi',
-        'Asosiy funksiyalar: Shablon, Slider, Forma, Video, Rasm, Editor',
-        'Subdomenda: sayt.templates.uz',
+        '1 website',
+        '5 MB storage',
+        'Basic features: Template, Slider, Form, Video, Image, Editor',
+        'Subdomain: site.templates.uz',
         'E-commerce ❌',
-        'Premium qoʻllab-quvvatlash ❌'
+        'Premium support ❌'
       ],
-      buttonText: 'Boshlash',
+      buttonText: 'Get Started',
       buttonStyle: 'btn-outline-primary'
     },
     {
       id: 2,
       name: 'Starter',
-      description: 'Kichik loyihalar uchun qulay',
+      description: 'Great for small projects',
       price: '$3',
-      period: '/oy',
+      period: '/month',
       features: [
-        '3 ta sayt',
-        '100 MB saqlash joyi',
-        'Barcha asosiy funksiyalar',
-        'Telegram bot orqali tahrirlash',
+        '3 websites',
+        '100 MB storage',
+        'All basic features',
+        'Telegram bot editing',
         'Subdomain + Favicon',
         'E-commerce ❌'
       ],
-      buttonText: 'Boshlash',
+      buttonText: 'Get Started',
       buttonStyle: 'btn-primary-custom'
     },
     {
       id: 3,
       name: 'Standard',
-      description: 'Kengaytirilayotgan bizneslar uchun',
+      description: 'For growing businesses',
       price: '$8',
-      period: '/oy',
+      period: '/month',
       features: [
-        '5 ta sayt',
-        '500 MB saqlash joyi',
-        'Maxsus domen (mysite.uz)',
-        'Oddiy admin panel',
-        'Barcha asosiy funksiyalar',
-        'Kengaytirilgan statistika ❌'
+        '5 websites',
+        '500 MB storage',
+        'Custom domain (mysite.uz)',
+        'Simple admin panel',
+        'All basic features',
+        'Advanced analytics ❌'
       ],
       isPopular: true,
-      buttonText: 'Tanlash',
+      buttonText: 'Choose Plan',
       buttonStyle: 'btn-primary-custom'
     },
     {
       id: 4,
       name: 'Pro',
-      description: 'Professional foydalanuvchilar uchun',
+      description: 'For professional users',
       price: '$15',
-      period: '/oy',
+      period: '/month',
       features: [
-        '10 ta sayt',
-        '1 GB saqlash joyi',
-        'Toʻliq admin panel',
-        'SEO va analitika',
-        'Foydalanuvchi roʻyxatdan oʻtishi',
-        'Barcha asosiy funksiyalar'
+        '10 websites',
+        '1 GB storage',
+        'Full admin panel',
+        'SEO and analytics',
+        'User registration',
+        'All basic features'
       ],
-      buttonText: 'Tanlash',
+      buttonText: 'Choose Plan',
       buttonStyle: 'btn-primary-custom'
     },
     {
       id: 5,
       name: 'Premium',
-      description: 'Katta loyihalar uchun mukammal reja',
+      description: 'Perfect plan for large projects',
       price: '$29',
-      period: '/oy',
+      period: '/month',
       features: [
-        'Cheksiz saytlar',
-        '3 GB saqlash joyi',
-        'Ustuvor texnik yordam',
-        'Koʻp tilli saytlar',
-        'Valyuta konvertatsiyasi',
-        'Maxsus integratsiyalar',
-        'Eksklyuziv shablonlar'
+        'Unlimited websites',
+        '3 GB storage',
+        'Priority technical support',
+        'Multi-language websites',
+        'Currency conversion',
+        'Custom integrations',
+        'Exclusive templates'
       ],
-      buttonText: 'Tanlash',
+      buttonText: 'Choose Plan',
       buttonStyle: 'btn-primary-custom'
     }
   ];
@@ -107,9 +107,9 @@ const PricingSection: React.FC = () => {
     <section id="pricing" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="section-title">Tarif rejalari</h2>
+          <h2 className="section-title">Pricing Plans</h2>
           <p className="section-subtitle">
-            Har qanday byudjetga mos moslashuvchan tariflar
+            Flexible pricing for any budget
           </p>
         </div>
 
@@ -124,7 +124,7 @@ const PricingSection: React.FC = () => {
               {plan.isPopular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <span className="bg-secondary text-white px-4 py-2 rounded-full text-sm font-semibold">
-                    Eng mashhur
+                    Most Popular
                   </span>
                 </div>
               )}
@@ -163,9 +163,9 @@ const PricingSection: React.FC = () => {
 
         <div className="text-center mt-12">
           <p className="text-light-text">
-            Yillik toʻlov bilan 2 oy bepul! 
+            2 months free with annual payment! 
             <a href="#contact" className="text-primary hover:text-primary-dark font-semibold ml-2">
-              Batafsil maʻlumot
+              Learn More
             </a>
           </p>
         </div>

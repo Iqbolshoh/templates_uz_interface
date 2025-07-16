@@ -16,82 +16,82 @@ const TemplatesSection: React.FC = () => {
   const templates: Template[] = [
     {
       id: 1,
-      title: 'Biznes & Korporativ',
-      description: 'Yirik kompaniyalar va bizneslar uchun silliq dizayn va kuchli funksiyalar bilan ideal tanlov.',
+      title: 'Business & Corporate',
+      description: 'Perfect choice for large companies and businesses with smooth design and powerful features.',
       image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      badge: 'Yangi',
+      badge: 'New',
       badgeColor: 'bg-primary-500 text-white',
       category: 'business'
     },
     {
       id: 2,
-      title: 'Onlayn Doʻkon',
-      description: 'Mahsulotlaringizni internetda qulay tarzda sotish uchun mukammal echim.',
+      title: 'Online Store',
+      description: 'Perfect solution for selling your products online conveniently.',
       image: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      badge: 'Eng koʻp tanlangan',
+      badge: 'Most Popular',
       badgeColor: 'bg-secondary-950 text-white',
       category: 'ecommerce'
     },
     {
       id: 3,
       title: 'Portfolio',
-      description: 'Ijodkorlar uchun oʻz ishlarini zamonaviy va jozibali koʻrinishda namoyish etish imkoniyati.',
+      description: 'Opportunity for creators to showcase their work in a modern and attractive way.',
       image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      badge: 'Trenddagi',
+      badge: 'Trending',
       badgeColor: 'bg-primary-500 text-white',
       category: 'portfolio'
     },
     {
       id: 4,
-      title: 'Restoran & Kafe',
-      description: 'Ovqatlanish joylari uchun ajoyib menyu va bron qilish tizimiga ega shablon.',
+      title: 'Restaurant & Cafe',
+      description: 'Template with great menu and booking system for dining establishments.',
       image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      badge: 'Mobil moslashuvchan',
+      badge: 'Mobile Responsive',
       badgeColor: 'bg-secondary-950 text-white',
       category: 'restaurant'
     },
     {
       id: 5,
-      title: 'Blog & Jurnal',
-      description: 'Yozuvchilar va jurnalistlar uchun qulay interfeysga ega shablon.',
+      title: 'Blog & Magazine',
+      description: 'Template with user-friendly interface for writers and journalists.',
       image: 'https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      badge: 'SEO optimallashtirilgan',
+      badge: 'SEO Optimized',
       badgeColor: 'bg-secondary-700 text-white',
       category: 'blog'
     },
     {
       id: 6,
-      title: 'Taʻlim & Kurslar',
-      description: 'Oʻquv markazlari va onlayn kurslar uchun maxsus ishlab chiqilgan shablon.',
+      title: 'Education & Courses',
+      description: 'Specially designed template for educational centers and online courses.',
       image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      badge: 'Tez yuklanadi',
+      badge: 'Fast Loading',
       badgeColor: 'bg-primary-500 text-white',
       category: 'education'
     },
     {
       id: 7,
-      title: 'Sogʻliqni Saqlash',
-      description: 'Shifoxonalar va tibbiy markazlar uchun maxsus yaratilgan professional shablon.',
+      title: 'Healthcare',
+      description: 'Professional template specially created for hospitals and medical centers.',
       image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      badge: 'Maxsus interfeys',
+      badge: 'Special Interface',
       badgeColor: 'bg-secondary-950 text-white',
       category: 'healthcare'
     },
     {
       id: 8,
-      title: 'Mehmonxona & Sayyohlik',
-      description: 'Mehmonxonalar va turizm biznesi uchun bron qilish tizimiga ega shablon.',
+      title: 'Hotel & Tourism',
+      description: 'Template with booking system for hotels and tourism business.',
       image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      badge: 'Tez yuklanadi',
+      badge: 'Fast Loading',
       badgeColor: 'bg-secondary-950 text-white',
       category: 'travel'
     },
     {
       id: 9,
-      title: 'Sport & Fitnes',
-      description: 'Fitnes klublari va sport markazlari uchun dinamik va energiyaga toʻla dizayn.',
+      title: 'Sports & Fitness',
+      description: 'Dynamic and energetic design for fitness clubs and sports centers.',
       image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-      badge: 'Yangi',
+      badge: 'New',
       badgeColor: 'bg-primary-500 text-white',
       category: 'sports'
     }
@@ -103,9 +103,9 @@ const TemplatesSection: React.FC = () => {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="section-title">Shablonlarimiz</h2>
+          <h2 className="section-title">Our Templates</h2>
           <p className="section-subtitle">
-            Har qanday soha uchun professional tarzda yaratilgan tayyor dizaynlar
+            Ready-made designs professionally created for any industry
           </p>
         </div>
 
@@ -137,7 +137,7 @@ const TemplatesSection: React.FC = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <button className="btn-outline-primary text-sm py-2 px-4">
-                    Koʻrish
+                    View
                   </button>
                   <button className="text-primary hover:text-primary-dark transition-colors">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -158,7 +158,7 @@ const TemplatesSection: React.FC = () => {
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
             </svg>
-            <span>{showAll ? 'Kamroq koʻrish' : 'Barcha shablonlarni koʻrish'}</span>
+            <span>{showAll ? 'Show Less' : 'View All Templates'}</span>
           </button>
         </div>
       </div>
