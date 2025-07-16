@@ -61,7 +61,7 @@ const HeroSection: React.FC = () => {
             </a>
             
             <Link 
-              to="/templates" 
+              to="https://section.templates.uz/" 
               className="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-bold text-red-600 bg-white border-2 border-red-200 rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 overflow-hidden"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-red-50 to-red-100 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -114,7 +114,7 @@ const HeroSection: React.FC = () => {
                 <h3 className="text-lg sm:text-2xl font-sans font-bold text-gray-800 mb-3 sm:mb-4">{t('hero.options.templates.title')}</h3>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">{t('hero.options.templates.description')}</p>
                 <Link 
-                  to="/templates" 
+                  to="https://section.templates.uz/" 
                   className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm font-semibold text-red-600 bg-red-50 hover:bg-red-100 rounded-xl transition-colors duration-300 group-hover:scale-105"
                 >
                   <span>{t('hero.options.templates.cta')}</span>
