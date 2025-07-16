@@ -191,7 +191,7 @@ const ContactSection: React.FC = () => {
               <div className="mt-6 pt-6 border-t border-secondary-800">
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-primary-500 rounded-full animate-pulse"></div>
-                  <span className="text-sm text-secondary-300">Hozir onlaynmiz</span>
+                  <span className="text-sm text-secondary-300">Hozir onlayn</span>
                 </div>
               </div>
             </div>
