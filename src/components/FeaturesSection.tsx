@@ -20,8 +20,8 @@ const FeaturesSection: React.FC = () => {
       title: 'Drag & Drop Tuzuvchi',
       description: 'Kod yozmasdan saytingizni sozlang. Elementlarni osongina joylashtiring va joylarini o\'zgartiring.',
       link: '#',
-      gradient: 'from-yellow-400 to-orange-500',
-      iconBg: 'from-yellow-500 to-orange-600'
+      gradient: 'from-primary-400 to-primary-500',
+      iconBg: 'from-primary-500 to-primary-600'
     },
     {
       icon: (
@@ -32,8 +32,8 @@ const FeaturesSection: React.FC = () => {
       title: 'Tayyor shablonlar',
       description: '150 dan ortiq professional dizayndagi shablonlardan birini tanlang va xohishingizga moslab o\'zgartiring.',
       link: '#',
-      gradient: 'from-blue-400 to-purple-500',
-      iconBg: 'from-blue-500 to-purple-600'
+      gradient: 'from-secondary-400 to-secondary-500',
+      iconBg: 'from-secondary-500 to-secondary-600'
     },
     {
       icon: (
@@ -44,8 +44,8 @@ const FeaturesSection: React.FC = () => {
       title: 'Dasturchi xizmatlari',
       description: 'Shaxsiy maqsadlaringizga moslashtirilgan maxsus saytni bizning professional dasturchimiz yaratib beradi.',
       link: '#',
-      gradient: 'from-green-400 to-teal-500',
-      iconBg: 'from-green-500 to-teal-600'
+      gradient: 'from-primary-400 to-primary-600',
+      iconBg: 'from-primary-500 to-primary-700'
     },
     {
       icon: (
@@ -56,8 +56,8 @@ const FeaturesSection: React.FC = () => {
       title: 'Mobil moslashuvchanlik',
       description: 'Saytingiz barcha qurilmalarda ideal ko\'rinishda bo\'ladi — avtomatik moslashish texnologiyasi bilan!',
       link: '#',
-      gradient: 'from-pink-400 to-red-500',
-      iconBg: 'from-pink-500 to-red-600'
+      gradient: 'from-secondary-400 to-secondary-600',
+      iconBg: 'from-secondary-500 to-secondary-700'
     },
     {
       icon: (
@@ -68,8 +68,8 @@ const FeaturesSection: React.FC = () => {
       title: 'Yuqori tezlik',
       description: 'Optimallashtirilgan kod va CDN yordami bilan sahifalar 90% tezroq yuklanadi. Ajoyib foydalanuvchi tajribasi!',
       link: '#',
-      gradient: 'from-indigo-400 to-blue-500',
-      iconBg: 'from-indigo-500 to-blue-600'
+      gradient: 'from-primary-400 to-primary-500',
+      iconBg: 'from-primary-500 to-primary-600'
     },
     {
       icon: (
@@ -80,17 +80,17 @@ const FeaturesSection: React.FC = () => {
       title: '24/7 Qo\'llab-quvvatlash',
       description: 'Bizning jamoamiz har doim sizga yordam berishga tayyor — email, chat yoki telefon orqali!',
       link: '#',
-      gradient: 'from-purple-400 to-pink-500',
-      iconBg: 'from-purple-500 to-pink-600'
+      gradient: 'from-secondary-400 to-secondary-600',
+      iconBg: 'from-secondary-500 to-secondary-700'
     }
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-br from-white via-gray-50 to-white relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-br from-white via-secondary-50 to-white relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-blue-200/30 to-purple-300/30 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-pink-200/30 to-yellow-300/30 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-primary-200/30 to-primary-300/30 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-secondary-200/30 to-secondary-300/30 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -98,15 +98,15 @@ const FeaturesSection: React.FC = () => {
           <div className="inline-block px-4 py-2 bg-gradient-to-r from-primary-100 to-primary-200 text-primary-700 rounded-full text-sm font-semibold mb-6">
             ✨ Nima uchun bizni tanlashadi?
           </div>
-          <h2 className="text-4xl md:text-6xl font-heading font-black mb-6">
-            <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-6xl font-sans font-black mb-6">
+            <span className="bg-gradient-to-r from-secondary-900 to-secondary-700 bg-clip-text text-transparent">
               Nega aynan 
             </span>
             <span className="bg-gradient-to-r from-primary-500 to-primary-700 bg-clip-text text-transparent">
               {' '}biz?
             </span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-secondary-600 max-w-3xl mx-auto leading-relaxed">
             Templates.uz platformasi kuchli vositalar va erkin sozlash imkoniyati bilan eng zo'r sayt yaratish tajribasini taklif qiladi.
           </p>
         </div>
@@ -115,7 +115,7 @@ const FeaturesSection: React.FC = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group relative bg-white/80 backdrop-blur-lg border border-gray-200 rounded-3xl p-8 shadow-xl hover:shadow-2xl transform hover:-translate-y-4 transition-all duration-500 overflow-hidden"
+              className="group relative bg-white/80 backdrop-blur-lg border border-secondary-200 rounded-3xl p-8 shadow-xl hover:shadow-2xl transform hover:-translate-y-4 transition-all duration-500 overflow-hidden"
             >
               {/* Gradient Background on Hover */}
               <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300 rounded-3xl`}></div>
@@ -129,10 +129,10 @@ const FeaturesSection: React.FC = () => {
               
               {/* Content */}
               <div className="relative z-10">
-                <h3 className="text-xl font-heading font-bold text-gray-800 mb-4 group-hover:text-gray-900 transition-colors">
+                <h3 className="text-xl font-sans font-bold text-secondary-800 mb-4 group-hover:text-secondary-900 transition-colors">
                   {feature.title}
                 </h3>
-                <p className="text-gray-600 mb-6 leading-relaxed group-hover:text-gray-700 transition-colors">
+                <p className="text-secondary-600 mb-6 leading-relaxed group-hover:text-secondary-700 transition-colors">
                   {feature.description}
                 </p>
                 <a
@@ -147,8 +147,8 @@ const FeaturesSection: React.FC = () => {
               </div>
 
               {/* Decorative Elements */}
-              <div className="absolute top-4 right-4 w-8 h-8 bg-gradient-to-br from-gray-100 to-gray-200 rounded-full opacity-20 group-hover:opacity-40 transition-opacity"></div>
-              <div className="absolute bottom-4 left-4 w-6 h-6 bg-gradient-to-br from-gray-100 to-gray-200 rounded-full opacity-10 group-hover:opacity-30 transition-opacity"></div>
+              <div className="absolute top-4 right-4 w-8 h-8 bg-gradient-to-br from-secondary-100 to-secondary-200 rounded-full opacity-20 group-hover:opacity-40 transition-opacity"></div>
+              <div className="absolute bottom-4 left-4 w-6 h-6 bg-gradient-to-br from-secondary-100 to-secondary-200 rounded-full opacity-10 group-hover:opacity-30 transition-opacity"></div>
             </div>
           ))}
         </div>
