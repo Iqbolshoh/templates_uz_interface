@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,54 +9,148 @@
   }
   
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', system-ui, sans-serif;
     line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ffffff;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Professional scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #ef4444;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #dc2626;
   }
 }
 
 @layer components {
-  .btn-primary-custom {
-    @apply bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-glow-red;
+  /* Professional Button Styles */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-red-500 to-red-600 text-white font-bold rounded-2xl shadow-xl hover:shadow-red-500/25 transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-red-500/50;
   }
   
-  .btn-outline-primary {
-    @apply border-2 border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 hover:-translate-y-1;
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-white border-2 border-black text-black font-bold rounded-2xl shadow-xl hover:bg-black hover:text-white transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-black/50;
   }
   
-  .section-title {
-    @apply font-sans text-4xl font-bold text-secondary-950 text-center mb-6 relative;
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-8 py-4 border-2 border-red-500 text-red-500 font-bold rounded-2xl hover:bg-red-500 hover:text-white transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-red-500/50;
   }
   
-  .section-title::after {
-    content: '';
-    @apply block w-20 h-1 bg-primary-500 mx-auto mt-4 rounded;
+  /* Professional Card Styles */
+  .card {
+    @apply bg-white rounded-3xl shadow-professional hover:shadow-professional-lg transform hover:-translate-y-2 transition-all duration-500 border-2 border-gray-200;
   }
   
-  .section-subtitle {
-    @apply text-lg text-secondary-600 max-w-2xl mx-auto text-center mb-12;
+  .card-premium {
+    @apply bg-gradient-to-br from-white to-gray-50 rounded-3xl shadow-professional hover:shadow-professional-lg transform hover:-translate-y-4 transition-all duration-500 border-2 border-gray-200 overflow-hidden;
   }
   
-  .fade-in {
-    @apply opacity-0 translate-y-8 transition-all duration-700;
+  /* Professional Layout Utilities */
+  .section-padding {
+    @apply py-24 lg:py-32;
   }
   
-  .fade-in.visible {
-    @apply opacity-100 translate-y-0;
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Professional Typography */
+  .heading-primary {
+    @apply text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black leading-none tracking-tight;
+  }
+  
+  .heading-secondary {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-black leading-none tracking-tight;
+  }
+  
+  .text-gradient-red {
+    @apply bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent;
+  }
+  
+  .text-gradient-black {
+    @apply bg-gradient-to-r from-black to-gray-800 bg-clip-text text-transparent;
+  }
+  
+  /* Professional Glass Effect */
+  .glass-effect {
+    @apply bg-white/90 backdrop-blur-xl border-2 border-white/20 shadow-professional;
+  }
+  
+  /* Professional Mesh Background */
+  .mesh-bg {
+    background: linear-gradient(45deg, #ef4444 0%, #dc2626 25%, #b91c1c 50%, #991b1b 75%, #7f1d1d 100%);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+  }
+
+  /* Professional Form Styles */
+  .form-input {
+    @apply w-full px-6 py-4 border-2 border-gray-200 rounded-2xl focus:border-red-500 focus:outline-none transition-colors text-black font-medium placeholder-gray-500;
+  }
+
+  .form-textarea {
+    @apply w-full px-6 py-4 border-2 border-gray-200 rounded-2xl focus:border-red-500 focus:outline-none transition-colors resize-none text-black font-medium placeholder-gray-500;
+  }
+
+  .form-select {
+    @apply w-full px-6 py-4 border-2 border-gray-200 rounded-2xl focus:border-red-500 focus:outline-none transition-colors text-black font-medium;
   }
 }
 
-/* Custom animations */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
-}
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 
-.animate-fade-in-up {
-  animation: fadeInUp 0.8s ease-out forwards;
+  /* Professional Animation Utilities */
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.6s ease-out;
+  }
+
+  .animate-slide-in {
+    animation: slideIn 0.7s ease-out;
+  }
+
+  /* Professional Hover Effects */
+  .hover-lift {
+    @apply transform transition-all duration-300 hover:-translate-y-2 hover:shadow-professional-lg;
+  }
+
+  .hover-scale {
+    @apply transform transition-all duration-300 hover:scale-105;
+  }
+
+  .hover-glow-red {
+    @apply transition-all duration-300 hover:shadow-glow-red;
+  }
 }

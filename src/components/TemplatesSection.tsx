@@ -20,7 +20,7 @@ const TemplatesSection: React.FC = () => {
       description: 'Yirik kompaniyalar va bizneslar uchun silliq dizayn va kuchli funksiyalar bilan ideal tanlov.',
       image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       badge: 'Yangi',
-      badgeColor: 'bg-primary text-white',
+      badgeColor: 'bg-primary-500 text-white',
       category: 'business'
     },
     {
@@ -29,7 +29,7 @@ const TemplatesSection: React.FC = () => {
       description: 'Mahsulotlaringizni internetda qulay tarzda sotish uchun mukammal echim.',
       image: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       badge: 'Eng koʻp tanlangan',
-      badgeColor: 'bg-green-500 text-white',
+      badgeColor: 'bg-secondary-950 text-white',
       category: 'ecommerce'
     },
     {
@@ -38,7 +38,7 @@ const TemplatesSection: React.FC = () => {
       description: 'Ijodkorlar uchun oʻz ishlarini zamonaviy va jozibali koʻrinishda namoyish etish imkoniyati.',
       image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       badge: 'Trenddagi',
-      badgeColor: 'bg-yellow-500 text-dark',
+      badgeColor: 'bg-primary-500 text-white',
       category: 'portfolio'
     },
     {
@@ -47,7 +47,7 @@ const TemplatesSection: React.FC = () => {
       description: 'Ovqatlanish joylari uchun ajoyib menyu va bron qilish tizimiga ega shablon.',
       image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       badge: 'Mobil moslashuvchan',
-      badgeColor: 'bg-blue-500 text-white',
+      badgeColor: 'bg-secondary-950 text-white',
       category: 'restaurant'
     },
     {
@@ -56,7 +56,7 @@ const TemplatesSection: React.FC = () => {
       description: 'Yozuvchilar va jurnalistlar uchun qulay interfeysga ega shablon.',
       image: 'https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       badge: 'SEO optimallashtirilgan',
-      badgeColor: 'bg-gray-500 text-white',
+      badgeColor: 'bg-secondary-700 text-white',
       category: 'blog'
     },
     {
@@ -65,7 +65,7 @@ const TemplatesSection: React.FC = () => {
       description: 'Oʻquv markazlari va onlayn kurslar uchun maxsus ishlab chiqilgan shablon.',
       image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       badge: 'Tez yuklanadi',
-      badgeColor: 'bg-red-500 text-white',
+      badgeColor: 'bg-primary-500 text-white',
       category: 'education'
     },
     {
@@ -74,7 +74,7 @@ const TemplatesSection: React.FC = () => {
       description: 'Shifoxonalar va tibbiy markazlar uchun maxsus yaratilgan professional shablon.',
       image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       badge: 'Maxsus interfeys',
-      badgeColor: 'bg-gray-800 text-white',
+      badgeColor: 'bg-secondary-950 text-white',
       category: 'healthcare'
     },
     {
@@ -83,7 +83,7 @@ const TemplatesSection: React.FC = () => {
       description: 'Mehmonxonalar va turizm biznesi uchun bron qilish tizimiga ega shablon.',
       image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       badge: 'Tez yuklanadi',
-      badgeColor: 'bg-green-500 text-white',
+      badgeColor: 'bg-secondary-950 text-white',
       category: 'travel'
     },
     {
@@ -92,7 +92,7 @@ const TemplatesSection: React.FC = () => {
       description: 'Fitnes klublari va sport markazlari uchun dinamik va energiyaga toʻla dizayn.',
       image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
       badge: 'Yangi',
-      badgeColor: 'bg-yellow-500 text-dark',
+      badgeColor: 'bg-primary-500 text-white',
       category: 'sports'
     }
   ];
