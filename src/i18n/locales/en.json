@@ -1,0 +1,582 @@
+{
+  "site": {
+    "title": "Templates.uz — Create your website fast and easy!",
+    "description": "Create amazing and customized websites in no time with Templates.uz! Drag & drop builder, ready-made templates and professional developer services."
+  },
+  "header": {
+    "logo": "Templates.uz",
+    "nav": {
+      "home": "Home",
+      "templates": "Templates",
+      "pricing": "Pricing",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "language": {
+      "english": "English",
+      "russian": "Русский",
+      "uzbek": "Uzbek",
+      "tajik": "Тоҷикӣ"
+    },
+    "auth": {
+      "login": "Login",
+      "signup": "Sign Up"
+    }
+  },
+  "hero": {
+    "badge": "New platform launched!",
+    "title": {
+      "line1": "Create your website",
+      "line2": "fast and easy"
+    },
+    "description": "Create amazing and customized websites in no time with Templates.uz! Drag & drop builder, ready-made templates and professional developer services.",
+    "cta": {
+      "primary": "Create New Website",
+      "secondary": "View Options"
+    },
+    "options": {
+      "dragDrop": {
+        "title": "Drag & Drop Website Builder",
+        "description": "Move blocks with your mouse to create your website without any coding.",
+        "cta": "Get Started"
+      },
+      "templates": {
+        "title": "Create Website from Ready Templates",
+        "description": "Choose a template that suits you from our wide selection and customize it to your liking.",
+        "cta": "Get Started"
+      },
+      "developer": {
+        "title": "Use Professional Developer Services",
+        "description": "We'll create a fast, secure and unique website tailored to you by experienced developers.",
+        "cta": "Let's create yours!"
+      }
+    }
+  },
+  "features": {
+    "badge": "Why choose us?",
+    "title": {
+      "line1": "Why exactly",
+      "line2": "us?"
+    },
+    "description": "Templates.uz platform offers the best website creation experience with powerful tools and flexible customization options.",
+    "items": {
+      "dragDrop": {
+        "title": "Drag & Drop Builder",
+        "description": "Configure your website without writing code. Easily place and rearrange elements.",
+        "link": "Learn More"
+      },
+      "templates": {
+        "title": "Ready Templates",
+        "description": "Choose from over 150 professionally designed templates and customize them to your liking.",
+        "link": "Learn More"
+      },
+      "developer": {
+        "title": "Developer Services",
+        "description": "Our professional developers will create a custom website tailored to your personal goals.",
+        "link": "Learn More"
+      },
+      "responsive": {
+        "title": "Mobile Responsive",
+        "description": "Your website will look perfect on all devices — with automatic responsive technology!",
+        "link": "Learn More"
+      },
+      "speed": {
+        "title": "High Speed",
+        "description": "Pages load 90% faster with optimized code and CDN support. Amazing user experience!",
+        "link": "Learn More"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Our team is always ready to help you — via email, chat or phone!",
+        "link": "Learn More"
+      }
+    }
+  },
+  "howItWorks": {
+    "badge": "Simple process",
+    "title": {
+      "line1": "How does it",
+      "line2": "work?"
+    },
+    "description": "Create your website in just 3 steps!",
+    "steps": {
+      "choose": {
+        "title": "Choose a Template",
+        "description": "Select a suitable template from our collection or request a custom design from our team."
+      },
+      "content": {
+        "title": "Add Your Content",
+        "description": "Upload and configure your text, images and videos through a simple interface."
+      },
+      "publish": {
+        "title": "Publish Your Site",
+        "description": "Launch your website online with a single click. Don't worry about domain or hosting!"
+      }
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": {
+      "line1": "Frequently asked",
+      "line2": "questions"
+    },
+    "description": "Answers to the most frequently asked questions about Templates.uz platform, drag & drop builder, templates and our developer services.",
+    "items": {
+      "whatIs": {
+        "question": "What is Templates.uz and how does it work?",
+        "answer": "Templates.uz is a convenient platform for simple and fast website creation. You can use ready-made templates or create your desired website through a drag & drop builder without writing any code!"
+      },
+      "dragDrop": {
+        "question": "How does the drag & drop builder help in website creation?",
+        "answer": "The drag & drop builder allows you to easily place and configure elements like images, text, videos, buttons on the page. Without writing any code — you can create website design visually."
+      },
+      "templates": {
+        "question": "What templates are available on Templates.uz?",
+        "answer": "We have professional templates for business, personal portfolio, online store, blog and other directions. You can customize each template to suit your needs."
+      },
+      "services": {
+        "question": "What developer services do you offer?",
+        "answer": "Backend and frontend development, API integration, admin panel creation, security and speed optimization — all included in our professional services!"
+      },
+      "technologies": {
+        "question": "What technologies do you use for backend?",
+        "answer": "We use modern technologies like Laravel (PHP), Node.js, and Python, as well as MySQL and MongoDB databases to create reliable and scalable backend systems."
+      },
+      "technical": {
+        "question": "Do I need technical knowledge to use Templates.uz?",
+        "answer": "No technical knowledge required! Templates.uz is convenient for both beginners and professionals. If you need special features — our developer team will help you."
+      },
+      "time": {
+        "question": "How long does it take to create a website?",
+        "answer": "With ready templates and drag & drop, you can create a simple website in just a few minutes. Custom development projects take 5-10 business days."
+      }
+    },
+    "stillQuestions": {
+      "title": "Still have questions?",
+      "description": "Our team is always ready to help you!",
+      "cta": "Contact Us"
+    }
+  },
+  "testimonials": {
+    "badge": "Customer Reviews",
+    "title": {
+      "line1": "Customer",
+      "line2": "testimonials"
+    },
+    "description": "Get familiar with the experience of satisfied users of the Templates.uz platform",
+    "items": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "position": "Business Owner",
+        "company": "Flower World",
+        "comment": "We created an amazing website for our small business with Templates.uz. Our customers loved it, and our sales increased by 40%!"
+      },
+      "michael": {
+        "name": "Michael Chen",
+        "position": "Graphic Designer",
+        "company": "Freelancer",
+        "comment": "I'm not a developer, but I created my professional portfolio website in just a few hours through Templates.uz. Great platform!"
+      },
+      "emily": {
+        "name": "Emily Rodriguez",
+        "position": "Restaurant Manager",
+        "company": "Food Center",
+        "comment": "We created a beautiful website for our restaurant. The online ordering system saved time and attracted more customers. The technical support team is also great!"
+      }
+    },
+    "cta": {
+      "title": "Join our satisfied customers too!",
+      "description": "Start creating your website today and grow your business.",
+      "button": "Start Now"
+    }
+  },
+  "templates": {
+    "title": "Our Templates",
+    "description": "Ready-made designs professionally created for any industry",
+    "items": {
+      "business": {
+        "title": "Business & Corporate",
+        "description": "Perfect choice for large companies and businesses with smooth design and powerful features.",
+        "badge": "New"
+      },
+      "ecommerce": {
+        "title": "Online Store",
+        "description": "Perfect solution for selling your products online conveniently.",
+        "badge": "Most Popular"
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "Opportunity for creators to showcase their work in a modern and attractive way.",
+        "badge": "Trending"
+      },
+      "restaurant": {
+        "title": "Restaurant & Cafe",
+        "description": "Template with great menu and booking system for dining establishments.",
+        "badge": "Mobile Responsive"
+      },
+      "blog": {
+        "title": "Blog & Magazine",
+        "description": "Template with user-friendly interface for writers and journalists.",
+        "badge": "SEO Optimized"
+      },
+      "education": {
+        "title": "Education & Courses",
+        "description": "Specially designed template for educational centers and online courses.",
+        "badge": "Fast Loading"
+      },
+      "healthcare": {
+        "title": "Healthcare",
+        "description": "Professional template specially created for hospitals and medical centers.",
+        "badge": "Special Interface"
+      },
+      "travel": {
+        "title": "Hotel & Tourism",
+        "description": "Template with booking system for hotels and tourism business.",
+        "badge": "Fast Loading"
+      },
+      "sports": {
+        "title": "Sports & Fitness",
+        "description": "Dynamic and energetic design for fitness clubs and sports centers.",
+        "badge": "New"
+      }
+    },
+    "buttons": {
+      "view": "View",
+      "viewAll": "View All Templates",
+      "showLess": "Show Less"
+    }
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "description": "Flexible pricing for any budget",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "description": "Perfect for beginners",
+        "price": "$0",
+        "period": "/month",
+        "features": [
+          "1 website",
+          "5 MB storage",
+          "Basic features: Template, Slider, Form, Video, Image, Editor",
+          "Subdomain: site.templates.uz",
+          "E-commerce ❌",
+          "Premium support ❌"
+        ],
+        "button": "Get Started"
+      },
+      "starter": {
+        "name": "Starter",
+        "description": "Great for small projects",
+        "price": "$3",
+        "period": "/month",
+        "features": [
+          "3 websites",
+          "100 MB storage",
+          "All basic features",
+          "Telegram bot editing",
+          "Subdomain + Favicon",
+          "E-commerce ❌"
+        ],
+        "button": "Get Started"
+      },
+      "standard": {
+        "name": "Standard",
+        "description": "For growing businesses",
+        "price": "$8",
+        "period": "/month",
+        "features": [
+          "5 websites",
+          "500 MB storage",
+          "Custom domain (mysite.uz)",
+          "Simple admin panel",
+          "All basic features",
+          "Advanced analytics ❌"
+        ],
+        "button": "Choose Plan",
+        "popular": "Most Popular"
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "For professional users",
+        "price": "$15",
+        "period": "/month",
+        "features": [
+          "10 websites",
+          "1 GB storage",
+          "Full admin panel",
+          "SEO and analytics",
+          "User registration",
+          "All basic features"
+        ],
+        "button": "Choose Plan"
+      },
+      "premium": {
+        "name": "Premium",
+        "description": "Perfect plan for large projects",
+        "price": "$29",
+        "period": "/month",
+        "features": [
+          "Unlimited websites",
+          "3 GB storage",
+          "Priority technical support",
+          "Multi-language websites",
+          "Currency conversion",
+          "Custom integrations",
+          "Exclusive templates"
+        ],
+        "button": "Choose Plan"
+      }
+    },
+    "note": "2 months free with annual payment!",
+    "learnMore": "Learn More"
+  },
+  "services": {
+    "badge": "Professional Services",
+    "title": {
+      "line1": "Our Development",
+      "line2": "Services"
+    },
+    "description": "Launch your dream website — from domains to complete business websites! Our professional team meets all your requirements.",
+    "items": {
+      "domain": {
+        "title": "Domain Registration",
+        "price": "$10",
+        "period": "/year",
+        "description": "Strengthen your branding with professional domain service",
+        "features": [
+          "Personal domain (e.g.: yoursite.com)",
+          "Domain management and settings",
+          "Privacy protection (WHOIS)",
+          "24/7 technical support and assistance"
+        ]
+      },
+      "website": {
+        "title": "Website Creation",
+        "price": "$99",
+        "period": "/one-time",
+        "description": "Professional website with modern and responsive design",
+        "features": [
+          "Custom design (up to 5 pages)",
+          "Mobile responsive design",
+          "Basic SEO optimization",
+          "1 month free support"
+        ]
+      },
+      "personal": {
+        "title": "Personal Website Creation",
+        "price": "$150",
+        "period": "/one-time",
+        "description": "Unique design for your portfolio and personal branding",
+        "features": [
+          "Unique design (up to 3 pages)",
+          "Contact form integration",
+          "Social media integration",
+          "1 month free support"
+        ]
+      },
+      "maintenance": {
+        "title": "Website Maintenance",
+        "price": "$50",
+        "period": "/month",
+        "description": "Keep your website always fresh and secure",
+        "features": [
+          "Content changes (up to 10)",
+          "Security enhancements",
+          "Speed optimization",
+          "Monthly backups"
+        ]
+      },
+      "launch": {
+        "title": "Website Launch",
+        "price": "$75",
+        "period": "/one-time",
+        "description": "Complete service to make your website live on the internet",
+        "features": [
+          "Hosting setup and configuration",
+          "SSL certificate installation",
+          "DNS settings and domain connection",
+          "Launch testing and verification"
+        ]
+      },
+      "backend": {
+        "title": "Backend Development",
+        "price": "$200+",
+        "period": "/one-time",
+        "description": "Creating powerful and reliable backend systems",
+        "features": [
+          "Backend development with Laravel/PHP",
+          "Database integration (MySQL, PostgreSQL)",
+          "API integrations and services",
+          "Admin panel setup and management"
+        ]
+      },
+      "business": {
+        "title": "Complete Business Website",
+        "price": "$499+",
+        "period": "/one-time",
+        "description": "Professional and complete solution for large businesses",
+        "features": [
+          "Premium design (10+ pages)",
+          "Advanced SEO and optimization",
+          "E-commerce or booking system",
+          "Complete admin panel and management",
+          "Social media integration",
+          "3 months free support",
+          "Custom hosting and security"
+        ],
+        "popular": "Most Popular"
+      }
+    },
+    "buttons": {
+      "getStarted": "Get Started",
+      "contactNow": "Contact Now"
+    },
+    "customProject": {
+      "title": "Planning a custom project?",
+      "description": "Our professional team creates solutions tailored to your unique requirements. Let's create amazing things together!",
+      "buttons": {
+        "contact": "Contact Immediately",
+        "telegram": "Via Telegram"
+      }
+    }
+  },
+  "contact": {
+    "badge": "Contact Us",
+    "title": {
+      "line1": "Let's create your website",
+      "line2": "together"
+    },
+    "description": "Do you have questions about our development services or are you ready to start a project? Contact us today and start working with our professional team!",
+    "methods": {
+      "title": "Contact Methods",
+      "email": {
+        "title": "Email",
+        "content": "support@templates.uz",
+        "description": "Send us an email"
+      },
+      "phone": {
+        "title": "Phone",
+        "content": "+998 33 123 77 90",
+        "description": "Give us a call"
+      },
+      "telegram": {
+        "title": "Telegram",
+        "content": "@iqbolshoh_777",
+        "description": "For quick response"
+      },
+      "address": {
+        "title": "Address",
+        "content": "Firdavsiy Street 51, Samarkand",
+        "description": "Our office"
+      }
+    },
+    "workingHours": {
+      "title": "Working Hours",
+      "monday": "Monday - Friday",
+      "mondayTime": "9:00 - 18:00",
+      "saturday": "Saturday",
+      "saturdayTime": "10:00 - 16:00",
+      "sunday": "Sunday",
+      "sundayTime": "Closed",
+      "status": "Currently online"
+    },
+    "form": {
+      "title": "Send Message",
+      "fields": {
+        "name": {
+          "label": "Full Name *",
+          "placeholder": "Enter your name"
+        },
+        "email": {
+          "label": "Email Address *",
+          "placeholder": "your.email@example.com"
+        },
+        "service": {
+          "label": "Which service do you need? *",
+          "placeholder": "Select a service",
+          "options": {
+            "domain": "Domain Registration ($10/year)",
+            "website": "Website Creation ($99/one-time)",
+            "updates": "Website Updates ($50/month)",
+            "launch": "Website Launch ($75/one-time)",
+            "backend": "Backend Development ($200/one-time)",
+            "personal": "Personal Website ($150/one-time)",
+            "business": "Business Website ($499/one-time)"
+          }
+        },
+        "subject": {
+          "label": "Subject",
+          "placeholder": "Need help?"
+        },
+        "message": {
+          "label": "Your Message *",
+          "placeholder": "Write about your project or ask a question..."
+        }
+      },
+      "button": {
+        "send": "Send Message",
+        "sending": "Sending..."
+      },
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again later."
+    },
+    "cta": {
+      "title": "Launch your dream website!",
+      "description": "Our professional team meets all your requirements. Contact us today and start creating an amazing website!",
+      "buttons": {
+        "telegram": "Contact via Telegram",
+        "call": "Call Us"
+      }
+    }
+  },
+  "footer": {
+    "description": "Create a professional website for yourself with our platform. Fast, easy and reliable!",
+    "links": {
+      "title": "Links"
+    },
+    "useful": {
+      "title": "Useful",
+      "items": {
+        "helpCenter": "Help Center",
+        "terms": "Terms of Use",
+        "privacy": "Privacy Policy",
+        "developerServices": "Developer Services"
+      }
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "description": "Need a developer? Contact us now for website creation, updates or personal and business websites!"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Stay informed about the latest news and offers",
+      "placeholder": "Your email address",
+      "button": "Subscribe"
+    },
+    "bottom": {
+      "copyright": "© {{year}} Templates.uz. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "online": "Online"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "more": "More",
+    "less": "Less"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "site": {
+    "title": "Templates.uz — Вебсайти худро зуд ва осон созед!",
+    "description": "Бо Templates.uz вебсайтҳои аҷоиб ва фардиро дар вақти кам созед! Созандаи drag & drop, қолабҳои тайёр ва хидматҳои касбии барномасозон."
+  },
+  "header": {
+    "logo": "Templates.uz",
+    "nav": {
+      "home": "Саҳифаи асосӣ",
+      "templates": "Қолабҳо",
+      "pricing": "Нархҳо",
+      "services": "Хидматҳо",
+      "contact": "Тамос"
+    },
+    "language": {
+      "english": "English",
+      "russian": "Русский",
+      "uzbek": "Uzbek",
+      "tajik": "Тоҷикӣ"
+    },
+    "auth": {
+      "login": "Ворид шудан",
+      "signup": "Сабти ном"
+    }
+  }
+}

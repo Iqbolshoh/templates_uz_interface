@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 interface NavItem {
   label: string;
@@ -17,26 +18,27 @@ const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const location = useLocation();
+  const { t, i18n } = useTranslation();
   const [selectedLanguage, setSelectedLanguage] = useState<Language>({
-    code: 'en',
-    name: 'English',
+    code: i18n.language,
+    name: t('header.language.english'),
     flag: '🇬🇧',
     flagIcon: '/assets/images/flags/gb.svg'
   });
 
   const navItems: NavItem[] = [
-    { label: 'Home', href: '/' },
-    { label: 'Templates', href: '/templates' },
-    { label: 'Pricing', href: '/pricing' },
-    { label: 'Services', href: '/services' },
-    { label: 'Contact', href: '/contact' },
+    { label: t('header.nav.home'), href: '/' },
+    { label: t('header.nav.templates'), href: '/templates' },
+    { label: t('header.nav.pricing'), href: '/pricing' },
+    { label: t('header.nav.services'), href: '/services' },
+    { label: t('header.nav.contact'), href: '/contact' },
   ];
 
   const languages: Language[] = [
-    { code: 'en', name: 'English', flag: '🇬🇧', flagIcon: '/assets/images/flags/gb.svg' },
-    { code: 'ru', name: 'Русский', flag: '🇷🇺', flagIcon: '/assets/images/flags/ru.svg' },
-    { code: 'uz', name: 'Uzbek', flag: '🇺🇿', flagIcon: '/assets/images/flags/uz.svg' },
-    { code: 'tj', name: 'Тоҷикӣ', flag: '🇹🇯', flagIcon: '/assets/images/flags/tj.svg' },
+    { code: 'en', name: t('header.language.english'), flag: '🇬🇧', flagIcon: '/assets/images/flags/gb.svg' },
+    { code: 'ru', name: t('header.language.russian'), flag: '🇷🇺', flagIcon: '/assets/images/flags/ru.svg' },
+    { code: 'uz', name: t('header.language.uzbek'), flag: '🇺🇿', flagIcon: '/assets/images/flags/uz.svg' },
+    { code: 'tj', name: t('header.language.tajik'), flag: '🇹🇯', flagIcon: '/assets/images/flags/tj.svg' },
   ];
 
   const isActive = (path: string) => {
@@ -44,6 +46,7 @@ const Header: React.FC = () => {
   };
 
   const handleLanguageChange = (language: Language) => {
+    i18n.changeLanguage(language.code);
     setSelectedLanguage(language);
     setIsLanguageDropdownOpen(false);
   };
@@ -64,7 +67,7 @@ const Header: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-tr from-red-500/20 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <div className="font-sans font-bold text-lg sm:text-2xl">
-                <span className="bg-gradient-to-r from-black to-gray-700 bg-clip-text text-transparent">Templates</span>
+                <span className="bg-gradient-to-r from-black to-gray-700 bg-clip-text text-transparent">{t('header.logo').split('.')[0]}</span>
                 <span className="bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">.uz</span>
               </div>
             </Link>
@@ -151,13 +154,13 @@ const Header: React.FC = () => {
               to="/login"
               className="px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium text-red-600 border-2 border-red-200 hover:border-red-300 rounded-lg transition-all duration-300 hover:bg-red-50 hover:scale-105"
             >
-              Login
+              {t('header.auth.login')}
             </Link>
             <Link
               to="/register"
               className="px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium text-white bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-glow-red"
             >
-              Sign Up
+              {t('header.auth.signup')}
             </Link>
           </div>
 
@@ -204,14 +207,14 @@ const Header: React.FC = () => {
                     className="text-center py-2 sm:py-3 px-4 text-red-600 border-2 border-red-200 hover:border-red-300 rounded-lg transition-colors hover:bg-red-50 text-sm sm:text-base"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Login
+                    {t('header.auth.login')}
                   </Link>
                   <Link
                     to="/register"
                     className="text-center py-2 sm:py-3 px-4 text-white bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 rounded-lg transition-colors shadow-lg text-sm sm:text-base"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Sign Up
+                    {t('header.auth.signup')}
                   </Link>
                 </div>
               </div>

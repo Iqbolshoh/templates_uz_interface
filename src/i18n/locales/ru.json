@@ -1,0 +1,26 @@
+{
+  "site": {
+    "title": "Templates.uz — Создайте свой сайт быстро и легко!",
+    "description": "Создавайте потрясающие и персонализированные веб-сайты в кратчайшие сроки с Templates.uz! Конструктор drag & drop, готовые шаблоны и профессиональные услуги разработчиков."
+  },
+  "header": {
+    "logo": "Templates.uz",
+    "nav": {
+      "home": "Главная",
+      "templates": "Шаблоны",
+      "pricing": "Цены",
+      "services": "Услуги",
+      "contact": "Контакты"
+    },
+    "language": {
+      "english": "English",
+      "russian": "Русский",
+      "uzbek": "Uzbek",
+      "tajik": "Тоҷикӣ"
+    },
+    "auth": {
+      "login": "Войти",
+      "signup": "Регистрация"
+    }
+  }
+}

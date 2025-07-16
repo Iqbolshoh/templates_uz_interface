@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const HeroSection: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-100">
       {/* Animated Background Elements */}
@@ -26,25 +29,22 @@ const HeroSection: React.FC = () => {
               <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
-              New platform launched!
+              {t('hero.badge')}
             </span>
           </div>
           
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-sans font-black mb-6 sm:mb-8 animate-fade-in-up leading-tight" style={{ animationDelay: '0.2s' }}>
             <span className="bg-gradient-to-r from-black via-gray-800 to-black bg-clip-text text-transparent">
-              Create your website
+              {t('hero.title.line1')}
             </span>
             <br />
             <span className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 bg-clip-text text-transparent">
-              fast and easy
+              {t('hero.title.line2')}
             </span>
           </h1>
           
           <p className="text-base sm:text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-8 sm:mb-12 leading-relaxed animate-fade-in-up px-4" style={{ animationDelay: '0.4s' }}>
-            Create amazing and customized websites in no time with Templates.uz! 
-            <span className="text-red-600 font-semibold"> Drag & drop builder</span>, 
-            <span className="text-red-600 font-semibold"> ready-made templates</span> and 
-            <span className="text-red-600 font-semibold"> professional developer services</span>.
+            {t('hero.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mb-12 sm:mb-20 animate-fade-in-up px-4" style={{ animationDelay: '0.6s' }}>
@@ -56,7 +56,7 @@ const HeroSection: React.FC = () => {
               <svg className="w-5 sm:w-6 h-5 sm:h-6 mr-2 sm:mr-3 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
-              <span className="relative z-10">Create New Website</span>
+              <span className="relative z-10">{t('hero.cta.primary')}</span>
               <div className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
             </a>
             
@@ -69,7 +69,7 @@ const HeroSection: React.FC = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
               </svg>
-              <span className="relative z-10">View Options</span>
+              <span className="relative z-10">{t('hero.cta.secondary')}</span>
             </Link>
           </div>
 
@@ -86,13 +86,13 @@ const HeroSection: React.FC = () => {
                     </svg>
                   </div>
                 </div>
-                <h3 className="text-lg sm:text-2xl font-sans font-bold text-gray-800 mb-3 sm:mb-4">Drag & Drop Website Builder</h3>
-                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">Move blocks with your mouse to create your website without any coding.</p>
+                <h3 className="text-lg sm:text-2xl font-sans font-bold text-gray-800 mb-3 sm:mb-4">{t('hero.options.dragDrop.title')}</h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">{t('hero.options.dragDrop.description')}</p>
                 <a 
                   href="http://builder.templates.uz/" 
                   className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm font-semibold text-red-600 bg-red-50 hover:bg-red-100 rounded-xl transition-colors duration-300 group-hover:scale-105"
                 >
-                  <span>Get Started</span>
+                  <span>{t('hero.options.dragDrop.cta')}</span>
                   <svg className="w-3 sm:w-4 h-3 sm:h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -111,13 +111,13 @@ const HeroSection: React.FC = () => {
                     </svg>
                   </div>
                 </div>
-                <h3 className="text-lg sm:text-2xl font-sans font-bold text-gray-800 mb-3 sm:mb-4">Create Website from Ready Templates</h3>
-                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">Choose a template that suits you from our wide selection and customize it to your liking.</p>
+                <h3 className="text-lg sm:text-2xl font-sans font-bold text-gray-800 mb-3 sm:mb-4">{t('hero.options.templates.title')}</h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">{t('hero.options.templates.description')}</p>
                 <Link 
                   to="/templates" 
                   className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm font-semibold text-red-600 bg-red-50 hover:bg-red-100 rounded-xl transition-colors duration-300 group-hover:scale-105"
                 >
-                  <span>Get Started</span>
+                  <span>{t('hero.options.templates.cta')}</span>
                   <svg className="w-3 sm:w-4 h-3 sm:h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
@@ -136,8 +136,8 @@ const HeroSection: React.FC = () => {
                     </svg>
                   </div>
                 </div>
-                <h3 className="text-lg sm:text-2xl font-sans font-bold text-gray-800 mb-3 sm:mb-4">Use Professional Developer Services</h3>
-                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">We'll create a fast, secure and unique website tailored to you by experienced developers.</p>
+                <h3 className="text-lg sm:text-2xl font-sans font-bold text-gray-800 mb-3 sm:mb-4">{t('hero.options.developer.title')}</h3>
+                <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">{t('hero.options.developer.description')}</p>
                 <a 
                   href="https://t.me/iqbolshoh_777" 
                   target="_blank" 
@@ -147,7 +147,7 @@ const HeroSection: React.FC = () => {
                   <svg className="w-3 sm:w-4 h-3 sm:h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
-                  <span>Let's create yours!</span>
+                  <span>{t('hero.options.developer.cta')}</span>
                 </a>
               </div>
             </div>

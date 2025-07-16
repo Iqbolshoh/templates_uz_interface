@@ -1,0 +1,26 @@
+{
+  "site": {
+    "title": "Templates.uz — Veb-saytingizni tez va oson yarating!",
+    "description": "Templates.uz bilan ajoyib va moslashtirilgan veb-saytlarni qisqa vaqt ichida yarating! Drag & drop qurilish vositasi, tayyor shablonlar va professional dasturchi xizmatlari."
+  },
+  "header": {
+    "logo": "Templates.uz",
+    "nav": {
+      "home": "Bosh sahifa",
+      "templates": "Shablonlar",
+      "pricing": "Narxlar",
+      "services": "Xizmatlar",
+      "contact": "Aloqa"
+    },
+    "language": {
+      "english": "English",
+      "russian": "Русский",
+      "uzbek": "Uzbek",
+      "tajik": "Тоҷикӣ"
+    },
+    "auth": {
+      "login": "Kirish",
+      "signup": "Ro'yxatdan o'tish"
+    }
+  }
+}
