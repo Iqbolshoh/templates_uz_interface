@@ -131,18 +131,14 @@ const HowItWorksSection: React.FC = () => {
                       <p className="text-red-600 font-semibold text-base sm:text-lg">Video loading...</p>
                       <p className="text-gray-500 text-xs sm:text-sm mt-2">Watch the website creation process</p>
                     </div>
-            Simple Process
+                  </div>
                 </video>
-                
-                {/* Overlay Gradient */}
-              How does it 
               </div>
 
-              work?
               <div className="absolute -top-2 sm:-top-4 -left-2 sm:-left-4 w-6 sm:w-8 h-6 sm:h-8 bg-gradient-to-br from-red-400 to-red-500 rounded-full opacity-80 animate-pulse"></div>
               <div className="absolute -bottom-2 sm:-bottom-4 -right-2 sm:-right-4 w-4 sm:w-6 h-4 sm:h-6 bg-gradient-to-br from-red-400 to-red-500 rounded-full opacity-60 animate-pulse" style={{ animationDelay: '1s' }}></div>
               <div className="absolute top-1/2 -right-3 sm:-right-6 w-3 sm:w-4 h-3 sm:h-4 bg-gradient-to-br from-red-400 to-red-500 rounded-full opacity-70 animate-pulse" style={{ animationDelay: '2s' }}></div>
-            Create your website in just 3 steps!
+            </div>
           </div>
         </div>
       </div>
